@@ -17,8 +17,24 @@ I am looking for research projects where I can contribute to innovation, expand 
 
 # Experience
 
-- China College Engineering Practice and Innovation Competition - Provincial First Prize, Ranked 2nd Nationwide
-- Electronic Password Lock System - Microcontroller Applications Coursework
+**China College Engineering Practice and Innovation Competition** - Provincial First Prize, Ranked 2nd Nationwide
+
+- Led a team to design a simulated intelligent connected vehicle, capable of intelligently assessing road conditions and making driving decisions.
+- Managed the overall project, ensuring smooth coordination and task delegation among team members.
+- Developed and coded algorithms for vehicle decision-making in the simulation environment, optimizing for real-time performance and safety.
+
+**Electronic Password Lock System** - Microcontroller Applications Coursework
+
+- Designed and implemented an electronic password lock system using a Raspberry Pi and a 4x4 keypad for secure access control.
+- Programmed password validation, error handling, and feedback on an LCD screen.
+- Integrated relay control to operate the locking mechanism based on password input.
+- Overcame hardware de-bouncing issues and optimized keypad input reliability.
+
+**Multi-Functional Quiz Buzzer System** – Digital Circuits Design Coursework
+
+- Designed and implemented a quiz buzzer system using digital circuits, including logic gates and flip-flops.
+- Built a state machine for detecting buzzer inputs and controlling a LED display and seven-segment displays.
+- Applied de-bouncing circuits to ensure accurate input detection in competitive scenarios.
 
 # Skills
 
