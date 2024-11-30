@@ -12,7 +12,7 @@ Welcome to my personal homepage repository! This repository hosts the source cod
 ## Technologies Used
 
 - **Languages**: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
-- **JTools/Technologies**: Git, Linux, LaTeX, PCB Design Software
+- **Tools/Technologies**: Git, Linux, LaTeX, CUDA, PCB Design Software
 - **Hardware**: Circuit design, soldering, microcontroller programming (Raspberry Pi)
 
 ## How to View My Homepage
