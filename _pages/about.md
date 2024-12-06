@@ -62,8 +62,13 @@ I am looking for research projects where I can contribute to innovation, expand 
 # Skills
 
 - Languages: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
-- Tools/Technologies: Git, Linux, LaTeX, PCB Design Software
+- Tools/Technologies: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software
 - Hardware: Circuit design, soldering, microcontroller programming
+
+# Awards
+
+- Provincial First Prize – China College Engineering Practice and Innovation Competition Ranked 2nd nationally in the Provincial Selection (2023)
+- University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
 
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7aJXkocIyrHxDcJw_FpnG0vWOnRLRzapsbRMdMYhxos&cl=ffffff&w=a"></script>
 

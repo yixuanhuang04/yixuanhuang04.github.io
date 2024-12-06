@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yixuan Huang' Page"
+title                    : "Yixuan Huang's Page"
 title_separator          : "-"
 name                     : &name "Yixuan Huang"
 description              : &description "An undergraduate student in Electronic Information Engineering"
