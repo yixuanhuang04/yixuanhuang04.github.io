@@ -15,7 +15,7 @@ As an enthusiastic learner, I am always looking to expand my knowledge and colla
 
 I am looking for research projects where I can contribute to innovation, expand my technical skills, and engage with a community of researchers who share my passion for robotics and autonomous systems. Welcome to  email me to discuss potential research collaborations or opportunities.
 
-# Experience
+## Experience
 
 **China College Engineering Practice and Innovation Competition** - Provincial First Prize, Ranked 2nd Nationwide
 
@@ -59,13 +59,13 @@ I am looking for research projects where I can contribute to innovation, expand 
 - Integrated relay control to operate the locking mechanism based on password input.
 - Overcame hardware de-bouncing issues and optimized keypad input reliability.
 
-# Skills
+## Skills
 
 - Languages: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
 - Tools/Technologies: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software
 - Hardware: Circuit design, soldering, microcontroller programming
 
-# Awards
+## Awards
 
 - Provincial First Prize – China College Engineering Practice and Innovation Competition Ranked 2nd nationally in the Provincial Selection (2023)
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)

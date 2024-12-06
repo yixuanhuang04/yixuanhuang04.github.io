@@ -9,10 +9,10 @@ Welcome to my personal homepage repository! This repository hosts the source cod
 - **Projects**: A list of projects I have worked on, including both academic and personal projects.
 - **Contact Information**: How to get in touch with me for collaborations or opportunities.
 
-## Technologies Used
+## Skills
 
 - **Languages**: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
-- **Tools/Technologies**: Git, Linux, LaTeX, CUDA, PCB Design Software
+- **Tools/Technologies**: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software
 - **Hardware**: Circuit design, soldering, microcontroller programming (Raspberry Pi)
 
 ## How to View My Homepage
