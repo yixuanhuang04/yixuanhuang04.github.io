@@ -69,5 +69,6 @@ I am looking for research projects where I can contribute to innovation, expand 
 
 - Provincial First Prize – China College Engineering Practice and Innovation Competition Ranked 2nd nationally in the Provincial Selection (2023)
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
+- Excellent Student} – Wuhan University of Technology Excellent Student (top 1\%) (2023, 2024)
 
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7aJXkocIyrHxDcJw_FpnG0vWOnRLRzapsbRMdMYhxos&cl=ffffff&w=a"></script>
