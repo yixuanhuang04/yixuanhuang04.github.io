@@ -71,13 +71,3 @@ I am looking for research projects where I can contribute to innovation, expand 
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
 
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7aJXkocIyrHxDcJw_FpnG0vWOnRLRzapsbRMdMYhxos&cl=ffffff&w=a"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X62D1CNV3J"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X62D1CNV3J');
-</script>
