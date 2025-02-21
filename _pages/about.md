@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am Yixuan Huang, a third-year undergraduate student studying Electronic Information Engineering at Wuhan University of Technology. I have a strong passion for research and am actively seeking remote research opportunities in the field of robotics.
+Hello! My name is Yixuan Huang, and I am a third-year undergraduate student at Wuhan University of Technology, majoring in Electronic Information Engineering. I’ve always had a deep passion for robotics and its intersection with artificial intelligence, particularly in areas like decision-making, and multi-agent systems.
 
-With a deep interest in how robotic systems and autonomous technologies can be applied to solve real-world problems, I am driven to explore and contribute to advancements in this area. My academic journey so far has provided me with a solid foundation in electronic circuits, signal processing, and programming, which I am eager to apply to cutting-edge research projects.
+As I move closer to the end of my undergraduate studies, I am more eager than ever to begin engaging in research. I am highly motivated to explore the complexities of robotics, from autonomous decision-making and motion planning to human-robot interaction and lifelong learning. I believe that scientific research is where I can make a real impact and develop the skills that will serve me throughout my career.
 
-As an enthusiastic learner, I am always looking to expand my knowledge and collaborate with like-minded researchers. I am particularly excited by the potential of robotics to transform industries and everyday life, and I am motivated to contribute to this transformative field through hands-on research and development.
+I am actively looking for opportunities to join research teams where I can contribute, learn, and grow. I’m particularly interested in applying my academic background in robotics, algorithms, and machine learning to practical problems in the field, and I am excited to collaborate with others who share my enthusiasm for advancing robotics.
 
-I am looking for research projects where I can contribute to innovation, expand my technical skills, and engage with a community of researchers who share my passion for robotics and autonomous systems. Welcome to  email me to discuss potential research collaborations or opportunities.
+Starting my journey into research is something I’m truly excited about, and I’m committed to dedicating my time and energy to it. If you share similar interests or are working on projects that align with my passions, I’d love to connect and explore potential collaborations.
 
 ## Experience
 
@@ -70,5 +70,3 @@ I am looking for research projects where I can contribute to innovation, expand 
 - Provincial First Prize – China College Engineering Practice and Innovation Competition Ranked 2nd nationally in the Provincial Selection (2023)
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
 - Excellent Student} – Wuhan University of Technology Excellent Student (top 1\%) (2023, 2024)
-
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7aJXkocIyrHxDcJw_FpnG0vWOnRLRzapsbRMdMYhxos&cl=ffffff&w=a"></script>
