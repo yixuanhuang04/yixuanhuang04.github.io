@@ -23,50 +23,48 @@ Starting my journey into research is something I’m truly excited about, and I�
 
 - Led a team to design a simulated intelligent connected vehicle, capable of intelligently assessing road conditions and making driving decisions.
 - Managed the overall project, ensuring smooth coordination and task delegation among team members.
-- Developed and coded algorithms for vehicle decision-making in the simulation environment, optimizing for real-time performance and safety.
+- Developed and coded algorithms for vehicle decision-making in the simulation environment, optimizing for real-time performance and safety (scored 30% higher than the next team).
 
-**Music Box** – Electrical Engineering and Electronics Coursework
+**Electronic Music Box** – Electrical Engineering and Electronics Coursework
 
-*Date: Sep. 2023 – Nov. 2023*
+*Date: Oct. 2023 – Nov. 2023*
 
-- Designed a music box that mimics the appearance of a vinyl record player, featuring music circuits and light circuits.
-- Fully designed the PCB layout for the music circuit and lighting control, using Altium Designer.
-- Fabricated the PCB and assembled the final product, including soldering components and testing the circuit functionality.
-- Successfully integrated lighting effects with sound for an interactive user experience.
+- Designed and fabricated an electronic music box that mimics the appearance of a vinyl record player, featuring music and light circuits, with a fully designed PCB layout created using *Altium Designer*.
+- Assembled the final product by soldering components and conducting circuit functionality testing.
+- Successfully implemented a system that allows users to freely select songs stored on a memory chip, with the number of songs limited by the chip's storage capacity and the space required for each individual song.
 
 **Electronic Keyboard** – Analog Electronic Circuit Coursework
 
-*Date: Nov. 2023 – Jan. 2024*
+*Date: Nov. 2023 – Dec. 2023*
 
-- Designed and built a simple electronic keyboard that generates different tones when keys are pressed.
+- Designed and built a simple electronic keyboard with 21 keys, each generating a corresponding tone from *C3* to *B5* in the Scientific Pitch Notation when pressed.
 - Developed a driving circuit to control a buzzer for sound output, utilizing basic electronic components like resistors, capacitors, and transistors.
-- Implemented an oscillator circuit to produce specific frequencies for each keypress.
+- Implemented an oscillator circuit to produce specific frequencies for each keypress, I have played multiple musical pieces using the electronic keyboard.
 
 **Multi-Functional Quiz Buzzer System** – Digital Circuits Design Coursework
 
-*Date: Apr. 2024 – Jun. 2024*
+*Date: May. 2024 – Jun. 2024*
 
-- Designed and implemented a quiz buzzer system using digital circuits, including logic gates and flip-flops.
-- Built a state machine for detecting buzzer inputs and controlling a LED display and seven-segment displays.
-- Applied de-bouncing circuits to ensure accurate input detection in competitive scenarios.
+- Designed and implemented an 8-channel quiz buzzer system with a countdown timer, using digital circuits, including logic gates and flip-flops.
+- Built a pure hardware circuit to detect buzzer inputs and determine the number of the first participant to press their button, controlling both an LED display and seven-segment displays.
+- I used this buzzer system in a classroom quiz competition.
 
 **Electronic Password Lock System** - Microcontroller Applications Coursework
 
-*Date: Sep. 2024 – Nov. 2024*
+*Date: Nov. 2024 – Dec. 2024*
 
-- Designed and implemented an electronic password lock system using a Raspberry Pi and a 4x4 keypad for secure access control.
-- Programmed password validation, error handling, and feedback on an LCD screen.
-- Integrated relay control to operate the locking mechanism based on password input.
-- Overcame hardware de-bouncing issues and optimized keypad input reliability.
+- Designed and implemented an electronic password lock system using FPGA for secure access control.
+- The system includes features such as password validation, error password alerts, unauthorized access alarms, and password modification, et al.
+- Due to FPGA button limitations, the system can support up to $(2^8)^4$ password combinations. This system was integrated into an electronic music box to ensure that the playback content cannot be modified without correct access.
 
 ## Skills
 
 - Languages: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
-- Tools/Technologies: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software
+- Tools/Technologies: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software, Machine Learning
 - Hardware: Circuit design, soldering, microcontroller programming
 
 ## Awards
 
 - Provincial First Prize – China College Engineering Practice and Innovation Competition Ranked 2nd nationally in the Provincial Selection (2023)
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
-- Excellent Student} – Wuhan University of Technology Excellent Student (top 1\%) (2023, 2024)
+- Excellent Student – Wuhan University of Technology Excellent Student (top 1%) (2023, 2024)

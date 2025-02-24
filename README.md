@@ -12,8 +12,8 @@ Welcome to my personal homepage repository! This repository hosts the source cod
 ## Skills
 
 - **Languages**: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
-- **Tools/Technologies**: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software
-- **Hardware**: Circuit design, soldering, microcontroller programming (Raspberry Pi)
+- **Tools/Technologies**: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software, Machine Learning
+- **Hardware**: Circuit design, soldering, microcontroller programming
 
 ## How to View My Homepage
 
