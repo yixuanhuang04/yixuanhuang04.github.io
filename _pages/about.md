@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Yixuan Huang, and I am a third-year undergraduate student at Wuhan University of Technology, majoring in Electronic Information Engineering. I’ve always had a deep passion for robotics and its intersection with artificial intelligence, particularly in areas like decision-making, and multi-agent systems.
+Hello! My name is Yixuan Huang, and I am a third-year undergraduate student at Wuhan University of Technology, majoring in Electronic Information Engineering. I’ve always had a deep passion for robotics and its intersection with artificial intelligence, particularly in areas like embodied AI, and decision-making.
 
-As I move closer to the end of my undergraduate studies, I am more eager than ever to begin engaging in research. I am highly motivated to explore the complexities of robotics, from autonomous decision-making and motion planning to human-robot interaction and lifelong learning. I believe that scientific research is where I can make a real impact and develop the skills that will serve me throughout my career.
+As I move closer to the end of my undergraduate studies, I am more eager than ever to begin engaging in research. I am highly motivated to explore the complexities of robotics, from autonomous decision-making to human-robot interaction and lifelong learning. I believe that scientific research is where I can make a real impact and develop the skills that will serve me throughout my career.
 
 I am actively looking for opportunities to join research teams where I can contribute, learn, and grow. I’m particularly interested in applying my academic background in robotics, algorithms, and machine learning to practical problems in the field, and I am excited to collaborate with others who share my enthusiasm for advancing robotics.
 
