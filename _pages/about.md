@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,9 +21,11 @@ Starting my journey into research is something I’m truly excited about, and I�
 
 *Date: Jun. 2023 – Oct. 2023*
 
-- Led a team to design a simulated intelligent connected vehicle, capable of intelligently assessing road conditions and making driving decisions.
-- Developed algorithms for detecting environmental conditions and taking actions in response to specific conditions.
-- The final scored 30\% higher than the next team.
+- Led the development of a simulated intelligent connected vehicle, enabling autonomous road condition assessment and decision-making.
+- Designed and implemented adaptive algorithms for dynamic environment perception and real-time driving adjustments, surpassing traditional DIP control in human-like behavior simulation.
+- Optimized lane-changing strategies, improving smoothness and safety over linear interpolation and fixed-length path generation methods.
+- Enhanced decision-making models, integrating high-precision mapping and dynamic traffic adaptation, outperforming static map detection and basic traffic light-based approaches.
+- Achieved top performance, scoring 30% higher than the next best team in evaluations.
 
 **Electronic Music Box** – Electrical Engineering and Electronics Coursework
 
@@ -59,11 +61,12 @@ Starting my journey into research is something I’m truly excited about, and I�
 ## Skills
 
 - Languages: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
-- Tools/Technologies: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software, Machine Learning
-- Hardware: Circuit design, soldering, microcontroller programming
+- Tools/Technologies: Git, Linux, LaTeX, CUDA, PCB Design Software, Machine Learning, TensorFlow, MuJoco
+- Hardware: circuit design, soldering, microcontroller programming
 
-## Awards
+## Service \& Scholarships
 
 - Provincial First Prize – China College Engineering Practice and Innovation Competition Ranked 2nd nationally in the Provincial Selection (2023)
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
 - Excellent Student – Wuhan University of Technology Excellent Student (top 1%) (2023, 2024)
+- Student Union Officer – Wuhan University of Technology (Sep. 2022 – Jun.2024)
