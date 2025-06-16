@@ -53,7 +53,7 @@ Hello! My name is Yixuan Huang, and I am a third-year undergraduate student at W
 - Tools/Technologies: Git, Linux, LaTeX, CUDA, PCB Design Software, Machine Learning, Deep Learning, Reinforcement Learning, TensorFlow, MuJoco
 - Hardware: circuit design, soldering, microcontroller programming
 
-## Service \& Scholarships
+## Service & Scholarships
 
 - Provincial First Prize – China College Engineering Practice and Innovation Competition Ranked 2nd nationally in the Provincial Selection (2023)
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
