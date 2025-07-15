@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Yixuan Huang, and I am a third-year undergraduate student at Wuhan University of Technology, majoring in Electronic Information Engineering. I am deeply interested in robotics and artificial intelligence, particularly in studying how robotic agents can perceive, reason, and interact with the world in a human-like and robust manner.
+Hello! My name is Yixuan Huang(黄亦轩), and I am a 3rd-year undergraduate student at Wuhan University of Technology, majoring in Electronic Information Engineering. I am deeply interested in robotics and artificial intelligence, particularly in studying how robotic agents can perceive, reason, and interact with the world in a human-like and robust manner.
+
+Specifically, I am interested in how to let robots learn autonomously from the feedback of the physical world or cooperation with humans, and complete complex manipulation tasks more robustly, reliably, and safely. I think this is the basic means for robots to interact with the physical world, and it is also a very important content. Similar applications include household robots, cargo transportation robots, etc. At the same time, I am also interested in issues such as navigation, which is the basis for robots to move and interact in physical time or human society. Similar applications include autonomous driving, etc.
+
+I am looking for research internship opportunities. If you are looking to recruit a research assistant or intern, please contact yixuanhm@gmail.com. I look forward to potential collaboration with you!
 
 ## Experience
 
@@ -17,7 +21,16 @@ Hello! My name is Yixuan Huang, and I am a third-year undergraduate student at W
 - Designed and implemented adaptive algorithms for dynamic environment perception and real-time driving adjustments, surpassing traditional DIP control in human-like behavior simulation.
 - Optimized lane-changing strategies, improving smoothness and safety over linear interpolation and fixed-length path generation methods.
 - Enhanced decision-making models, integrating high-precision mapping and dynamic traffic adaptation, outperforming static map detection and basic traffic light-based approaches.
-- Achieved top performance, scoring 30% higher than the next best team in evaluations.
+- Achieved top performance, scoring 30% higher than the next best team in evaluatio.
+
+## Project
+
+**Handwritten Chinese Sentence Recognition using RNN-CTC**
+
+- Designed and implemented an end-to-end handwritten Chinese text recognition system capable of identifying full sentences of variable lengths from grayscale stroke-based images.
+- Built a CRNN architecture integrating convolutional layers for spatial feature extraction and bidirectional LSTMs for sequential modeling, followed by a CTC (Connectionist Temporal Classification) decoding layer to enable alignment-free sequence prediction.
+- Processed raw `.dgrl` handwritten data files from the CASIA-HWDB dataset, implemented stroke-to-image rendering and vocabulary construction for over 3,700 Chinese characters.
+- Achieved strong performance on the test set with **92.6% character accuracy** and **78.4% sentence accuracy**, demonstrating the effectiveness of the proposed pipeline on unconstrained handwritten text input.
 
 **Pathology Slide Classification & LLM Distillation**
 
