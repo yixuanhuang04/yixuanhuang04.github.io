@@ -11,7 +11,7 @@ Hello! My name is Yixuan Huang(黄亦轩), and I am a 3rd-year undergraduate stu
 
 Specifically, I am interested in how to let robots learn autonomously from the feedback of the physical world or cooperation with humans, and complete complex manipulation tasks more robustly, reliably, and safely. I think this is the basic means for robots to interact with the physical world, and it is also a very important content. Similar applications include household robots, cargo transportation robots, etc. At the same time, I am also interested in issues such as navigation, which is the basis for robots to move and interact in physical time or human society. Similar applications include autonomous driving, etc.
 
-I am looking for research internship opportunities. If you are looking to recruit a research assistant or intern, please contact yixuanhm@gmail.com. I look forward to potential collaboration with you!
+I am looking for research internship opportunities. If you are looking to recruit a research assistant or intern, please contact *'yixuanhm [AT] gmail [DOT] com'*. I look forward to potential collaboration with you!
 
 ## Experience
 
