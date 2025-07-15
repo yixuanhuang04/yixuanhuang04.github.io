@@ -30,7 +30,7 @@ I am looking for research internship opportunities. If you are looking to recrui
 - Designed and implemented an end-to-end handwritten Chinese text recognition system capable of identifying full sentences of variable lengths from grayscale stroke-based images.
 - Built a CRNN architecture integrating convolutional layers for spatial feature extraction and bidirectional LSTMs for sequential modeling, followed by a CTC (Connectionist Temporal Classification) decoding layer to enable alignment-free sequence prediction.
 - Processed raw `.dgrl` handwritten data files from the CASIA-HWDB dataset, implemented stroke-to-image rendering and vocabulary construction for over 3,700 Chinese characters.
-- Achieved strong performance on the test set with **92.6% character accuracy** and **78.4% sentence accuracy**, demonstrating the effectiveness of the proposed pipeline on unconstrained handwritten text input.
+- Achieved strong performance on the test set with 92.6% character accuracy and 78.4% sentence accuracy, demonstrating the effectiveness of the proposed pipeline on unconstrained handwritten text input.
 
 **Pathology Slide Classification & LLM Distillation**
 
@@ -55,10 +55,11 @@ I am looking for research internship opportunities. If you are looking to recrui
 - Used state machine planning to make decisions and prioritize.
 - Used this buzzer system in a classroom quiz competition and it worked well.
 
-**Electronic Password Lock System** - Microcontroller Applications Coursework
+**Electronic Password Lock System**
 
 - Designed and implemented an electronic password lock system using FPGA for secure access control.
 - Used multi-state federation management.
+- Can reset the password and unlock the door with the password. This project can be applied to smart door locks, etc.
 
 ## Skills
 
