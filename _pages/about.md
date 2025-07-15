@@ -18,7 +18,7 @@ I am looking for research internship opportunities. If you are looking to recrui
 **China College Engineering Practice and Innovation Competition** - Provincial First Prize, Ranked 2nd Nationwide
 
 - Led the development of a simulated intelligent connected vehicle, enabling autonomous road condition assessment and decision-making.
-- Designed and implemented adaptive algorithms for dynamic environment perception and real-time driving adjustments, surpassing traditional DIP control in human-like behavior simulation.
+- Designed and implemented adaptive algorithms for dynamic environment perception and real-time driving adjustments, which, when integrated with traditional PID-based control strategies, demonstrated improved alignment with human-like driving behavior.
 - Optimized lane-changing strategies, improving smoothness and safety over linear interpolation and fixed-length path generation methods.
 - Enhanced decision-making models, integrating high-precision mapping and dynamic traffic adaptation, outperforming static map detection and basic traffic light-based approaches.
 - Achieved top performance, scoring 30% higher than the next best team in evaluatio.
