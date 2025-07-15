@@ -46,7 +46,7 @@ I am looking for research internship opportunities. If you are looking to recrui
 **Electronic Keyboard**
 
 - Designed and built a simple electronic keyboard with 21 keys, each generating a corresponding tone from *C3* to *B5* in the Scientific Pitch Notation when pressed.
-- Developed an electronic keyboard to analyze frequency synthesis using digital signal processing techniques, exploring waveform generation and harmonics tuning for optimal sound quality.
+- Designed and implemented a digital oscillator circuit for tone synthesis, which allows pitch adjustment of each corresponding key via a tuning knob.
 - Played multiple musical pieces using the electronic keyboard.
 
 **Multi-Functional Quiz Buzzer System**
