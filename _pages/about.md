@@ -23,7 +23,7 @@ I am looking for research internship opportunities. If you are looking to recrui
 - Enhanced decision-making models, integrating high-precision mapping and dynamic traffic adaptation, outperforming static map detection and basic traffic light-based approaches.
 - Achieved top performance, scoring 30% higher than the next best team in evaluatio.
 
-## Project
+## Projects
 
 **Handwritten Chinese Sentence Recognition using RNN-CTC**
 
