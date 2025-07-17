@@ -9,7 +9,7 @@ redirect_from:
 
 Hello! My name is Yixuan Huang(黄亦轩), and I am a 3rd-year undergraduate student at Wuhan University of Technology, majoring in Electronic Information Engineering. I am deeply interested in robotics and artificial intelligence, particularly in studying how robotic agents can perceive, reason, and interact with the world in a human-like and robust manner.
 
-Specifically, I am interested in how to let robots learn autonomously from the feedback of the physical world or cooperation with humans, and complete complex manipulation tasks more robustly, reliably, and safely. I think this is the basic means for robots to interact with the physical world, and it is also a very important content. Similar applications include household robots, cargo transportation robots, etc. At the same time, I am also interested in issues such as navigation, which is the basis for robots to move and interact in physical time or human society. Similar applications include autonomous driving, etc.
+I am broadly interested in enabling robots to autonomously learn skills through interaction with the physical world and cooperation with humans. My research focuses on how to improve the robustness, reliability, and safety of robot behaviors in real-world environments. I believe this is fundamental for robotic agents to operate effectively in physical space, and it underpins essential applications such as household service robots and logistics manipulators. In addition, I am exploring navigation and decision-making in dynamic and uncertain environments, which is critical for enabling robots to move intelligently and interact within physical or human-centered spaces—applications include autonomous driving and mobile robotics. My long-term goal is to advance embodied intelligence and physical interaction understanding, enabling robots to generalize from limited supervision and adapt to new environments.
 
 I am looking for research internship opportunities. If you are looking to recruit a research assistant or intern, please contact *'yixuanhm [AT] gmail [DOT] com'*. I look forward to potential collaboration with you!
 
@@ -73,6 +73,7 @@ I am looking for research internship opportunities. If you are looking to recrui
 - University Scholarship – Second Prize Scholarship (2023), First Prize Scholarship (2024)
 - Excellent Student – Wuhan University of Technology Excellent Student (top 1%) (2023, 2024)
 - Student Union Officer – Wuhan University of Technology (2022 – 2024)
+- Chief Student Affairs Representative, School of Electronic Information Engineering – Wuhan University of Technology (2022 - Present)
 
 
 
