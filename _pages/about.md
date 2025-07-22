@@ -37,6 +37,35 @@ I am looking for research internship opportunities. If you are looking to recrui
 - Developed a CNN and ResNet18 pipeline to perform automatic classification of pathology slides, achieving balanced slide-level accuracy above 80% on multiple tasks.
 - Designed and executed a model distillation workflow: fine-tuned a large language model using slide-level metadata, achieving efficient transfer of contextual slide features to downstream classification tasks.
 
+**Electronic Password Lock System**
+
+- Designed and implemented an electronic password lock system using FPGA for secure access control.
+- Used multi-state federation management.
+- Can reset the password and unlock the door with the password. This project can be applied to smart door locks, etc.
+
+**Digital Baseband Transmission System Simulation**
+
+- Designed an ideal low-pass and raised cosine filtering system to construct a baseband transmission model that
+satisfies zero inter-symbol interference (ISI) conditions.
+- Analyzed and visualized the system response in both time and frequency domains to validate filtering properties.
+- Introduced Gaussian white noise and used eye diagrams to evaluate its impact on signal quality at the receiver.
+- Developed a complete digital baseband communication simulation platform supporting signal processing
+visualization and noise analysis.
+
+**Frequency-Domain Analysis of Discrete-Time Signals and Systems 2024**
+- Implemented Discrete Fourier Transform (DFT) and Inverse DFT (IDFT) algorithms to perform
+frequency-domain analysis of discrete signals.
+- Sampled continuous signals and investigated how sampling periods influence spectral characteristics.
+- Explored system causality and stability through frequency-domain perspectives, deepening theoretical
+understanding.
+- Built an offline analysis platform for frequency-domain signal processing and visualization.
+
+**Multi-Functional Quiz Buzzer System**
+
+- Designed and implemented an 8-channel quiz buzzer system with a countdown timer, using digital circuits, including logic gates and flip-flops.
+- Used state machine planning to make decisions and prioritize.
+- Used this buzzer system in a classroom quiz competition and it worked well.
+
 **Electronic Music Box**
 
 - Designed and fabricated an electronic music box that mimics the appearance of a vinyl record player, featuring music and light circuits, with a fully designed PCB layout created using *Altium Designer*.
@@ -48,18 +77,6 @@ I am looking for research internship opportunities. If you are looking to recrui
 - Designed and built a simple electronic keyboard with 21 keys, each generating a corresponding tone from *C3* to *B5* in the Scientific Pitch Notation when pressed.
 - Designed and implemented a digital oscillator circuit for tone synthesis, which allows pitch adjustment of each corresponding key via a tuning knob.
 - Played multiple musical pieces using the electronic keyboard.
-
-**Multi-Functional Quiz Buzzer System**
-
-- Designed and implemented an 8-channel quiz buzzer system with a countdown timer, using digital circuits, including logic gates and flip-flops.
-- Used state machine planning to make decisions and prioritize.
-- Used this buzzer system in a classroom quiz competition and it worked well.
-
-**Electronic Password Lock System**
-
-- Designed and implemented an electronic password lock system using FPGA for secure access control.
-- Used multi-state federation management.
-- Can reset the password and unlock the door with the password. This project can be applied to smart door locks, etc.
 
 ## Skills
 
