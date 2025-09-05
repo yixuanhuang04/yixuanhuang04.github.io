@@ -95,3 +95,5 @@ understanding.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=Cc2qASzVj90GaBysC5xLdGcUFFnHPyK_OsXdTvW6mDI&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=qkyaUk8ZTCcRU7WCFxztDE-T9QhniwOZBAYp6BcmMYA"></script>

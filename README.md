@@ -27,6 +27,7 @@ Feel free to reach out to me via email at [yixuanhm@gmail.com](mailto:yixuanhm@g
 
 - Continuously updating content as I complete new projects or research.
 - Adding more detailed information about my research work and publications in the future.
+- Plan to change the current theme into *JonBarron*
 
 Thank you for visiting my repository!
 
