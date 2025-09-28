@@ -1,701 +1,750 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<!-- Page title -->
-		<title>Yixuan Huang</title>
+<head>
+	<!-- Page title -->
+	<title>Yixuan Huang</title>
 
-		<!-- Character encoding -->
-		<meta charset="UTF-8">
+	<!-- Character encoding -->
+	<meta charset="UTF-8">
 
-		<!-- SEO: description and keywords, etc -->
-		<meta name="title" content="Yixuan Huang">
-		<meta name="description" content="Yixuan Huang's personal website. Showcasing research, projects, and publications in robotics and AI.">
-		<meta name="keywords" content="Yixuan Huang, Huang Yixuan, Yixuan, Huang, YIXUANHUANG, yixuanhuang, Robotics, Task Planning, Artificial Intelligence, Multi-agent Systems, Machine Learning, Electronics and Information Engineering, Wuhan University of Technology, WHUT, whut, SAIRI, sairi, Rutgers, rutgers">
-		<meta name="og:title" content="Yixuan Huang">
-		
-		<!-- Open Graph -->
-		<meta property="og:site_name" content="Yixuan Huang" />
-		<meta property="og:title" content="Yixuan Huang - Robotics & AI Research" />
-		<meta property="og:description" content="Personal website of Yixuan Huang, focusing on robotics, AI, and lifelong learning." />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://yixuanhuang04.github.io/" />
-		<meta property="og:image" content="https://yixuanhuang04.github.io/files/avatar.jpg" />
+	<!-- SEO: description and keywords, etc -->
+	<meta name="title" content="Yixuan Huang">
+	<meta name="description"
+		content="Yixuan Huang's personal website. Showcasing research, projects, and publications in robotics and AI.">
+	<meta name="keywords"
+		content="Yixuan Huang, Huang Yixuan, Yixuan, Huang, YIXUANHUANG, yixuanhuang, Robotics, Task Planning, Artificial Intelligence, Multi-agent Systems, Machine Learning, Electronics and Information Engineering, Wuhan University of Technology, WHUT, whut, SAIRI, sairi, Rutgers, rutgers">
+	<meta name="og:title" content="Yixuan Huang">
 
-		<!-- Twitter Card -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Yixuan Huang - Robotics & AI Research" />
-		<meta name="twitter:description" content="Personal website of Yixuan Huang, focusing on robotics, AI, and lifelong learning." />
-		<meta name="twitter:image" content="https://yixuanhuang04.github.io/files/avatar.jpg" />
+	<!-- Open Graph -->
+	<meta property="og:site_name" content="Yixuan Huang" />
+	<meta property="og:title" content="Yixuan Huang - Robotics & AI Research" />
+	<meta property="og:description"
+		content="Personal website of Yixuan Huang, focusing on robotics, AI, and lifelong learning." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://yixuanhuang04.github.io/" />
+	<meta property="og:image" content="https://yixuanhuang04.github.io/files/avatars/avatar.png" />
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="./files/icon.jpg">
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Yixuan Huang - Robotics & AI Research" />
+	<meta name="twitter:description"
+		content="Personal website of Yixuan Huang, focusing on robotics, AI, and lifelong learning." />
+	<meta name="twitter:image" content="https://yixuanhuang04.github.io/files/avatars/avatar.png" />
 
-		<!-- Google verification -->
-		<meta name="google-site-verification" content="-Wu9raj3TZeG72pHpAtFe5Nf7Is5Fu01E8wVR2zT7sQ" />
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="./files/icon.jpg">
 
-		<!-- External CSS -->
-		<link rel="stylesheet" href="./files/scripts/jemdoc.css" type="text/css">
+	<!-- Google verification -->
+	<meta name="google-site-verification" content="-Wu9raj3TZeG72pHpAtFe5Nf7Is5Fu01E8wVR2zT7sQ" />
 
-		<!-- Inline CSS -->
-		<style>
-			/* Table style: collapse borders */
-			table {
-				border-collapse: collapse;
+	<!-- External CSS -->
+	<link rel="stylesheet" href="./files/scripts/jemdoc.css" type="text/css">
+
+	<!-- Inline CSS -->
+	<style>
+		/* Table style: collapse borders */
+		table {
+			border-collapse: collapse;
+		}
+
+		/* Small image styling */
+		.smaller-image {
+			width: 20%;
+		}
+
+		/* Container for image/video positioning */
+		.container {
+			position: relative;
+			display: inline-block;
+		}
+
+		/* Image style: block display with rounded corners */
+		.image {
+			display: block;
+			border-radius: 10px;
+			max-width: 100%;
+		}
+
+		/* Video label styling */
+		.video-label {
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			background-color: #ea3323;
+			color: white;
+			padding: 0px 10px;
+			border-radius: 3px;
+			font-weight: bold;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			width: 40px;
+			height: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: small;
+		}
+
+		/* Research highlight grid layout */
+		.research-hightlight {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 10px;
+			/* Gap between grid items */
+		}
+
+		/* Arxiv label styling */
+		.arxiv-label {
+			position: absolute;
+			top: 10px;
+			left: -5px;
+			background-color: #a624a6;
+			color: white;
+			padding: 0px 10px;
+			border-radius: 3px;
+			font-weight: bold;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			width: 40px;
+			height: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: x-small;
+		}
+
+		/* Scroll wrapper for horizontal scrolling content */
+		.scroll-wrapper {
+			width: 100%;
+			overflow: hidden;
+			white-space: nowrap;
+			position: relative;
+		}
+
+		/* Scroll content animation */
+		.scroll-content {
+			display: inline-block;
+			white-space: nowrap;
+			animation: scroll-left 40s linear infinite;
+		}
+
+		.scroll-content img,
+		.scroll-content .container {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 0px;
+		}
+
+		/* Keyframes for horizontal scrolling */
+		@keyframes scroll-left {
+			0% {
+				transform: translateX(0%);
 			}
 
-			/* Small image styling */
-			.smaller-image {
-				width: 20%;
+			100% {
+				transform: translateX(-50%);
+			}
+		}
+
+		/* Pause scrolling on hover */
+		.scroll-wrapper:hover .scroll-content {
+			animation-play-state: paused;
+		}
+
+		@keyframes octocat-wave {
+
+			0%,
+			100% {
+				transform: rotate(0);
 			}
 
-			/* Container for image/video positioning */
-			.container {
-				position: relative;
-				display: inline-block;
+			20%,
+			60% {
+				transform: rotate(-25deg);
 			}
 
-			/* Image style: block display with rounded corners */
-			.image {
-				display: block;
-				border-radius: 10px; 
-				max-width: 100%;
+			40%,
+			80% {
+				transform: rotate(10deg);
+			}
+		}
+
+		/* Responsive adjustment for small screens */
+		@media (max-width:500px) {
+			.github-corner:hover .octo-arm {
+				animation: none;
 			}
 
-			/* Video label styling */
-			.video-label {
-				position: absolute;
-				top: 5px;
-				left: 5px;
-				background-color: #ea3323;
-				color: white;
-				padding: 0px 10px;
-				border-radius: 3px;
-				font-weight: bold;
-				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-				width: 40px;
-				height: 20px;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				font-size: small;
+			.github-corner .octo-arm {
+				animation: octocat-wave 560ms ease-in-out;
 			}
+		}
+	</style>
 
-			/* Research highlight grid layout */
-			.research-hightlight {
-				display: grid;
-				grid-template-columns: repeat(3, 1fr);
-				gap: 10px; /* Gap between grid items */
-			}
+	<!-- jQuery for interactive features -->
+	<script type="text/javascript" src="./files/scripts/jquery-1.16.4.min.js"></script>
+	<meta name="google-site-verification" content="-Wu9raj3TZeG72pHpAtFe5Nf7Is5Fu01E8wVR2zT7sQ" />
+</head>
 
-			/* Arxiv label styling */
-			.arxiv-label {
-				position: absolute;
-				top: 10px;
-				left: -5px;
-				background-color: #a624a6;
-				color: white;
-				padding: 0px 10px;
-				border-radius: 3px;
-				font-weight: bold;
-				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-				width: 40px;
-				height: 20px;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				font-size: x-small;
-			}
-
-			/* Scroll wrapper for horizontal scrolling content */
-			.scroll-wrapper {
-				width: 100%;
-				overflow: hidden;
-				white-space: nowrap;
-				position: relative;
-			}
-
-			/* Scroll content animation */
-			.scroll-content {
-				display: inline-block;
-				white-space: nowrap;
-				animation: scroll-left 40s linear infinite;
-			}
-
-			.scroll-content img,
-			.scroll-content .container {
-				display: inline-block;
-				vertical-align: top;
-				margin-right: 0px;
-			}
-
-			/* Keyframes for horizontal scrolling */
-			@keyframes scroll-left {
-				0% {
-					transform: translateX(0%);
-				}
-				100% {
-					transform: translateX(-50%);
-				}
-			}
-
-			/* Pause scrolling on hover */
-			.scroll-wrapper:hover .scroll-content {
-				animation-play-state: paused;
-			}
-
-			@keyframes octocat-wave {
-				0%, 100% {
-					transform: rotate(0);
-				}
-				20%, 60% {
-					transform: rotate(-25deg);
-				}
-				40%, 80% {
-					transform: rotate(10deg);
-				}
-			}
-
-			/* Responsive adjustment for small screens */
-			@media (max-width:500px) {
-				.github-corner:hover .octo-arm {
-					animation: none;
-				}
-				.github-corner .octo-arm {
-					animation: octocat-wave 560ms ease-in-out;
-				}
-			}
-		</style>
-
-		<!-- jQuery for interactive features -->
-		<script type="text/javascript" src="./files/scripts/jquery-1.16.4.min.js"></script>
-		<meta name="google-site-verification" content="-Wu9raj3TZeG72pHpAtFe5Nf7Is5Fu01E8wVR2zT7sQ" />
-	</head>
-
-	<body>
-    	<div id="layout-content" style="margin-top:25px">
-			<table>
-				<tbody>
-					<tr>
-						<!-- Left section: name, title, and social links -->
-						<td width="720">
-							<div id="toptitle">
-								<h1>Yixuan Huang (黄亦轩)</h1>
-								<h1></h1>
-								<!-- <img src="./files/sign.jpg" alt style="height: 60px;"> -->
-								<img src="./files/institutes/whut_full.jpg" alt style="height: 50px; margin-left: 10px;">
-							</div>
-							<div style="font-size: 16px">
-								<h3 style="margin-top: -20px;">🎓 Undergraduate Student @ Wuhan University of Technology</h3>
-								<h3 style="margin-top: -10px;">🤖 Research Interests: Robotics</h3>
-									<a href="mailto:yixuanhm@gmail.com" target="_blank">yixuanhm@gmail.com</a>&nbsp;/
-									<a href="https://scholar.google.com/citations?user=vJPa3CEAAAAJ&hl=en" target="_blank">Google Scholar</a>&nbsp;/
-									<!-- <a href="https://orcid.org/0009-0001-6293-5384" target="_blank">ORCID</a>&nbsp;/ -->
-									<a href="https://github.com/yixuanhuang04" target="_blank">GitHub</a>&nbsp;/
-									<a href="https://twitter.com/yixuanhuang_" target="_blank">Twitter	</a>&nbsp;/
-									<!-- <a href="https://www.linkedin.com/in/yixuanhuang04/" target="_blank">LinkedIn</a>&nbsp;/ -->
-									<a href="https://drive.google.com/file/d/11_KnE5NV9LELDRgIdmGkWKSPteiL-Fuw/view?usp=sharing" target="_blank">CV</a>&nbsp;/
-									<a href="contact.html" target="_blank">[Full Contact]</a>
-							</div>
-						</td>
-
-						<!-- Right section: profile picture -->
-						<td>
-							<img src="./files/avatars/avatar.png" border="0" width="200"><br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<!-- ========== Biography Section ========== -->
-			<h2 style="margin-top: -10px;">Biography</h2>
-			<div style="font-size: 16px">
-
-				<!-- English Biography -->
-				<p>
-					Hi! My name is <b>Yixuan Huang</b>, 
-					a final-year undergraduate student at 
-					<a href="https://www.whut.edu.cn/" target="_blank">Wuhan University of Technology</a>, 
-					majoring in Electronic Information Engineering. 
-					I am passionate about robotics and artificial intelligence, 
-					and currently working on computer vision and task planning.
-				</p>
-
-				<p>
-					My research interests include enabling robots to autonomously acquire skills 
-					through interaction with the environment and collaboration with humans. 
-					I focus on improving the robustness, reliability, and safety of robot behaviors 
-					in real-world settings, which is crucial for applications such as 
-					household service robots and logistics manipulators. 
-					I am also interested in navigation and decision-making in dynamic and uncertain environments, 
-					a key challenge for autonomous driving and mobile robotics.
-				</p>
-
-				<p>
-					My long-term goal is to contribute to the advancement of embodied intelligence 
-					and the understanding of physical interaction, enabling robots to 
-					generalize from limited supervision and adapt to novel tasks and environments.
-				</p>
-
-				<p>
-					<i style="color: red; display: inline;">
-						I am currently seeking research internship opportunities. 
-						If you are recruiting a research assistant or intern, please feel free to contact me at 
-						<i>yixuanhm@gmail.com</i>. 
-						I would be delighted to explore potential opportunities for collaboration.
-					</i>
-				</p>
-
-			</div>
-			<!-- ========== End Biography Section ========== -->
-
-			<!-- ========== Education Section ========== -->
-			<h2>Education</h2>
-			<div style="height: 10px"></div>
-
-			<!-- Undergraduate Education -->
-			<table width="100%" style="margin-top: 0px">
-				<tbody>
-					<tr>
-						<td width="320">
-							<!-- University Logo -->
-							<img src="./files/institutes/whut_seal.svg"  height="120px" style="display: block; margin: 0 auto;">
-						</td>
-						<td>
-							<p>
-								<b>Wuhan University of Technology (WHUT)</b><br>
-								<b style="font-size: 16px;">
-									<a href="http://wutinfo.whut.edu.cn/">School of Information Engineering</a>
-								</b>
-							</p>
-							<div style="font-size: 16px">
-								B.Eng. in Electronic Information Engineering
-							</div>
-							<div style="font-size: 16px">
-								GPA 91.0 / 100
-							</div>
-							<div style="font-size: 16px">
-								Sep. 2022 - Persent
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<!-- ========== End Education Section ========== -->
-
-			<!-- ========== Honors / Awards Section ========== -->
-			<h2>Honors & Awards</h2>
-
-			<!-- Selected Competition Awards Header -->
-			<div style="text-align: center; position: relative; margin-bottom: 40px; margin-top: 20px;">
-				<span style="position: absolute; top: 50%; left: 0; right: 0; 
-							transform: translateY(-50%); background-color: rgba(168, 168, 168, 0.3); padding: 0 10px;">
-					<b>Selected</b>
-				</span>
-			</div>
-
-			<!-- Competition Award -->
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<!-- Image Column -->
-						<td width="280px">
-							<img src="./files/works/projects/autonomous_vehicle_simulation.png" width="220px" 
-								style="box-shadow: 4px 4px 8px #888; margin-left: 32px; margin-top: 0px;">
-						</td>
-						<!-- Description Column -->
-						<td>
-							<b>China College Engineering Practice and Innovation Competition</b>
-							<p><i style="color: red; display: inline;"><b>Provincial First Prize, Ranked 2nd Nationwide</b></i> 🏆</p>
-							<div style="font-size: 16px;">With Zheng Zhang, Wentao Huang, Zeqi Yao. Supervised by.
-								<a href="https://www.researchgate.net/lab/Yi-Zhong-Lab">Yi Zhong</a>.
-								<div style="height: 8px;"></div>
-								Project Link: <a href="https://github.com/yixuanhuang04/autonomous-driving-sim">https://github.com/yixuanhuang04/autonomous-driving-sim</a>
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<!-- Scrollable list of other competitions -->
-			<div style="text-align: center; position: relative; margin-bottom: 40px; margin-top: 20px;">
-				<span style="position: absolute; top: 50%; left: 0; right: 0; 
-							transform: translateY(-50%); background-color: rgba(168, 168, 168, 0.3); padding: 0 10px;">
-					<b>Others</b>
-				</span>
-			</div>
-			
-			<div style="height: auto; overflow: auto; font-size: 16px;">
-				<ul>
-					<div style="margin-top: -10px;"></div>
-					<li>[2025] Excellent Student, Wuhan University of Technology, Top 1%</li>
-					<div style="margin-top: -10px;"></div>
-					<li>[2024] First Prize Scholarship, University Scholarship, CNY 3,000</li>
-					<div style="margin-top: -10px;"></div>
-					<li>[2024] Excellent Student, Wuhan University of Technology, Top 1%</li>
-					<div style="margin-top: -10px;"></div>
-					<li>[2023] Second Prize Scholarship, University Scholarship, CNY 2,000</li>
-					<div style="margin-top: -10px;"></div>
-					<li>[2023] Excellent Student, Wuhan University of Technology, Top 1%</li>
-					<!-- Duplicate for additional competitions -->
-				</ul>
-			</div>
-			<!-- ========== End Honors Section ========== -->
-
-			
-			<!-- ========== Experience Section ========== -->
-			<h2>Experience</h2>
-
-			<table width="100%" style="margin-top: 0px">
-				<tbody>
-					<tr>
-						<td width="320">
-							<!-- Institute Logo -->
-							<img src="./files/institutes/sairi_seal.png"  height="120px" style="display: block; margin: 0 auto;">
-						</td>
-						<td>
-						<p><b><a href="https://sairi.com.cn/" target="_blank">Shanghai Artificial Intelligence Research Institute</a>, Shanghai</b></p>
-							<div style="font-size: 16px">
-								<i>Aug. 2025 - Present</i>
-							</div>
-							<div style="font-size: 16px">
-								Research Intern
-							</div>
-							<div style="font-size: 16px">
-								Research Focus: Computer Vision and Robotics
-							</div>
+<body>
+	<div id="layout-content" style="margin-top:25px">
+		<table>
+			<tbody>
+				<tr>
+					<!-- Left section: name, title, and social links -->
+					<td width="720">
+						<div id="toptitle">
+							<h1>Yixuan Huang (黄亦轩)</h1>
+							<h1></h1>
+							<!-- <img src="./files/sign.jpg" alt style="height: 60px;"> -->
+							<img src="./files/institutes/whut_full.jpg" alt style="height: 50px; margin-left: 10px;">
+						</div>
+						<div style="font-size: 16px">
+							<h3 style="margin-top: -20px;">🎓 Undergraduate Student @ Wuhan University of Technology
+							</h3>
+							<h3 style="margin-top: -10px;">🤖 Research Interests: Robotics</h3>
+							<a href="mailto:yixuanhm@gmail.com" target="_blank">yixuanhm@gmail.com</a>&nbsp;/
+							<a href="https://scholar.google.com/citations?user=vJPa3CEAAAAJ&hl=en"
+								target="_blank">Google Scholar</a>&nbsp;/
+							<!-- <a href="https://orcid.org/0009-0001-6293-5384" target="_blank">ORCID</a>&nbsp;/ -->
+							<a href="https://github.com/yixuanhuang04" target="_blank">GitHub</a>&nbsp;/
+							<a href="https://twitter.com/yixuanhuang_" target="_blank">Twitter </a>&nbsp;/
+							<!-- <a href="https://www.linkedin.com/in/yixuanhuang04/" target="_blank">LinkedIn</a>&nbsp;/ -->
+							<a href="https://drive.google.com/file/d/11_KnE5NV9LELDRgIdmGkWKSPteiL-Fuw/view?usp=sharing"
+								target="_blank">CV</a>&nbsp;/
+							<a href="contact.html" target="_blank">[Full Contact]</a>
+						</div>
 					</td>
-					</tr>
-				</tbody>
-			</table>
 
-			<div style="height: 20px"></div>
-
-			<table width="100%" style="margin-top: 0px">
-				<tbody>
-					<tr>
-						<td width="320">
-							<!-- Institute Logo -->
-							<img src="./files/institutes/rutgers_university_the_state_university_of_new_jersey_full.png" width="280px" style="display: block; margin: 0 auto;">
-						</td>
-						<td>
-						<p><b><a href="https://www.rutgers.edu/" target="_blank">Rutgers University</a>, New Brunswick</b></p>
-							<div style="font-size: 16px">
-								<i>Jun. 2025 - Present</i>
-							</div>
-							<div style="font-size: 16px">
-								Research Intern (Supervisor: Prof. <a href="https://arc-l.github.io/" target="_blank">Jingjin Yu</a>)
-							</div>
-							<div style="font-size: 16px">
-								Research Focus: Robotics and Task Planning
-							</div>
+					<!-- Right section: profile picture -->
+					<td>
+						<img src="./files/avatars/avatar.png" border="0" width="200"><br>
 					</td>
-					</tr>
-				</tbody>
-			</table>
-			<!-- ========== End Experience Section ========== -->
+				</tr>
+			</tbody>
+		</table>
 
-			<!-- ========== Projects Section ========== -->
-			<h2>Projects</h2>
-			<!-- Project Template -->
-			 <table style="border-spacing:2px; font-size: 16px">
-				<tbody>
-					<tr>
-						<!-- Image Column -->
-						<td width="400px">
-							<img src="./files/works/projects/plant3d.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<!-- Description Column -->
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Plant3D: A Self-Constructed Plant 3D Reconstruction Dataset
+		<!-- ========== Biography Section ========== -->
+		<h2 style="margin-top: -10px;">Biography</h2>
+		<div style="font-size: 16px">
+
+			<!-- English Biography -->
+			<p>
+				Hi! My name is <b>Yixuan Huang</b>,
+				a final-year undergraduate student at
+				<a href="https://www.whut.edu.cn/" target="_blank">Wuhan University of Technology</a>,
+				majoring in Electronic Information Engineering.
+				I am passionate about robotics and artificial intelligence,
+				and currently working on computer vision and task planning.
+			</p>
+
+			<p>
+				My research interests include enabling robots to autonomously acquire skills
+				through interaction with the environment and collaboration with humans.
+				I focus on improving the robustness, reliability, and safety of robot behaviors
+				in real-world settings, which is crucial for applications such as
+				household service robots and logistics manipulators.
+				I am also interested in navigation and decision-making in dynamic and uncertain environments,
+				a key challenge for autonomous driving and mobile robotics.
+			</p>
+
+			<p>
+				My long-term goal is to contribute to the advancement of embodied intelligence
+				and the understanding of physical interaction, enabling robots to
+				generalize from limited supervision and adapt to novel tasks and environments.
+			</p>
+
+			<p>
+				<i style="color: red; display: inline;">
+					I am currently seeking research internship opportunities.
+					If you are recruiting a research assistant or intern, please feel free to contact me at
+					<i>yixuanhm@gmail.com</i>.
+					I would be delighted to explore potential opportunities for collaboration.
+				</i>
+			</p>
+
+		</div>
+
+		<!-- ========== Education Section ========== -->
+		<h2>Education</h2>
+		<div style="height: 10px"></div>
+
+		<!-- Undergraduate Education -->
+		<table width="100%" style="margin-top: 0px">
+			<tbody>
+				<tr>
+					<td width="320">
+						<!-- University Logo -->
+						<img src="./files/institutes/whut_seal.svg" height="120px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td>
+						<p>
+							<b><a href="https://www.whut.edu.cn/" target="_blank">Wuhan University of Technology</a>
+								(WHUT)</b><br>
+							<b style="font-size: 16px;">
+								School of Information Engineering
 							</b>
-							<div style="height: 8px;"></div>
-							<i>2025</i>
-							<div style="height: 8px;"></div>
-							A self-constructed dataset for <b>RGB-D based plant 3D reconstruction</b>, containing multiple reconstructed plant instances with raw, masked, sparse, and dense results.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+						</p>
+						<div style="font-size: 16px">
+							B.Eng. in Electronic Information Engineering
+						</div>
+						<div style="font-size: 16px">
+							GPA 91.0 / 100
+						</div>
+						<div style="font-size: 16px">
+							Sep. 2022 - Persent
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-			<table style="border-spacing:2px; font-size: 16px">
-				<tbody>
-					<tr>
-						<!-- Image Column -->
-						<td width="400px">
-							<img src="./files/works/projects/obj3d.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<!-- Description Column -->
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Obj3D: A Self-Constructed Multi-Object 3D Reconstruction Dataset
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2025</i>
-							<div style="height: 8px;"></div>
-							A self-constructed dataset for <b>RGB-D based 3D reconstruction of multiple object categories</b>, useful for benchmarking and validating reconstruction pipelines.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<!-- ========== Honors / Awards Section ========== -->
+		<h2>Honors & Awards</h2>
 
-			<table style="border-spacing:2px; font-size: 16px">
-				<tbody>
-					<tr>
-						<!-- Image Column -->
-						<td width="400px">
-							<img src="./files/works/projects/handwriteen_chinese_sentence_recognition.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<!-- Description Column -->
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Handwritten Chinese Sentence Recognition using CNN-CTC
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2025</i>
-							<div style="height: 8px;"></div>
-							End-to-end handwritten Chinese text recognition system using CNN, BiLSTM, and CTC.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<!-- Selected Competition Awards Header -->
+		<div style="text-align: center; position: relative; margin-bottom: 40px; margin-top: 20px;">
+			<span style="position: absolute; top: 50%; left: 0; right: 0; 
+							transform: translateY(-50%); background-color: rgba(168, 168, 168, 0.3); padding: 0 10px;">
+				<b>Selected</b>
+			</span>
+		</div>
 
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<td width="400px">
-							<img src="./files/works/projects/histopathology_classification.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Pathology Slide Classification & LLM Distillation
-							</b>
+		<!-- Competition Award -->
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<!-- Image Column -->
+					<td width="280px">
+						<img src="./files/works/projects/autonomous_vehicle_simulation.png" width="220px"
+							style="box-shadow: 4px 4px 8px #888; margin-left: 32px; margin-top: 0px;">
+					</td>
+					<!-- Description Column -->
+					<td>
+						<b>China College Engineering Practice and Innovation Competition</b>
+						<p><i style="color: red; display: inline;"><b>Provincial First Prize, Ranked 2nd
+									Nationwide</b></i> 🏆</p>
+						<div style="font-size: 16px;">With Zheng Zhang, Wentao Huang, Zeqi Yao. Supervised by.
+							<a href="https://www.researchgate.net/lab/Yi-Zhong-Lab">Yi Zhong</a>.
 							<div style="height: 8px;"></div>
-							<i>2025</i>
-							<div style="height: 8px;"></div>
-							Automatic pathology slide classification with CNNs and LLM-based knowledge distillation.<br>
-							<div style="height: 8px;"></div>
-							Project Link: <a href="https://github.com/yixuanhuang04/histopathology-classification">https://github.com/yixuanhuang04/histopathology-classification</a>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+							Project Link: <a
+								href="https://github.com/yixuanhuang04/autonomous-driving-sim">https://github.com/yixuanhuang04/autonomous-driving-sim</a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-			<table style="border-spacing:2px; font-size: 16px">
-				<tbody>
-					<tr>
-						<!-- Image Column -->
-						<td width="400px">
-							<img src="./files/works/projects/scene_graph.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<!-- Description Column -->
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Scene Graph Generation
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2025</i>
-							<div style="height: 8px;"></div>
-							Implemented structured visual understanding pipeline for modeling object relationships.<br>
-							<div style="height: 8px;"></div>
-							Project Link: <a href="https://github.com/yixuanhuang04/scene-graph">https://github.com/yixuanhuang04/scene-graph</a>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<!-- Scrollable list of other competitions -->
+		<div style="text-align: center; position: relative; margin-bottom: 40px; margin-top: 20px;">
+			<span style="position: absolute; top: 50%; left: 0; right: 0; 
+							transform: translateY(-50%); background-color: rgba(168, 168, 168, 0.3); padding: 0 10px;">
+				<b>Others</b>
+			</span>
+		</div>
 
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<td width="400px">
-							<img src="./files/works/projects/electronic_password_lock_system.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Electronic Password Lock System
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2025</i>
-							<div style="height: 8px;"></div>
-							FPGA-based secure access system with password reset and unlock features.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<div style="height: auto; overflow: auto; font-size: 16px;">
+			<ul>
+				<div style="margin-top: -10px;"></div>
+				<li>[2025] Excellent Student, Wuhan University of Technology, Top 1%</li>
+				<div style="margin-top: -10px;"></div>
+				<li>[2024] First Prize Scholarship, University Scholarship, CNY 3,000</li>
+				<div style="margin-top: -10px;"></div>
+				<li>[2024] Excellent Student, Wuhan University of Technology, Top 1%</li>
+				<div style="margin-top: -10px;"></div>
+				<li>[2023] Second Prize Scholarship, University Scholarship, CNY 2,000</li>
+				<div style="margin-top: -10px;"></div>
+				<li>[2023] Excellent Student, Wuhan University of Technology, Top 1%</li>
+				<!-- Duplicate for additional competitions -->
+			</ul>
+		</div>
 
-			<table style="border-spacing:2px; font-size: 16px">
-				<tbody>
-					<tr>
-						<!-- Image Column -->
-						<td width="400px">
-							<img src="./files/works/projects/multifunctional_digital_clock.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<!-- Description Column -->
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Multifunctional Digital Clock
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2024</i>
-							<div style="height: 8px;"></div>
-							Designed external circuits and firmware on a microcontroller; implemented Pomodoro timer, countdown, and stopwatch functions.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<!-- ========== Experience Section ========== -->
+		<h2>Experience</h2>
 
-			<table style="border-spacing:2px; font-size: 16px">
-				<tbody>
-					<tr>
-						<!-- Image Column -->
-						<td width="400px">
-							<img src="./files/works/projects/tourism_analytics.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<!-- Description Column -->
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Tourism Website Big Data Analysis
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2024</i>
-							<div style="height: 8px;"></div>
-							Web scraping with Jsoup, storage in HBase, visualization with ECharts for hotel pricing and reviews.<br>
-							<div style="height: 8px;"></div>
-							Project Link: <a href="https://github.com/yixuanhuang04/tourism-analytics">https://github.com/yixuanhuang04/tourism-analytics</a>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<table width="100%" style="margin-top: 0px">
+			<tbody>
+				<tr>
+					<td width="320">
+						<!-- Institute Logo -->
+						<img src="./files/institutes/sairi_seal.png" height="120px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td>
+						<p><b><a href="https://sairi.com.cn/" target="_blank">Shanghai Artificial Intelligence Research
+									Institute</a>, Shanghai</b></p>
+						<div style="font-size: 16px">
+							<i>Aug. 2025 - Present</i>
+						</div>
+						<div style="font-size: 16px">
+							Research Intern
+						</div>
+						<div style="font-size: 16px">
+							Research Focus: Computer Vision and Robotics
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<td width="400px">
-							<img src="./files/works/projects/digital_baseband_transmission_system.svg"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Digital Baseband Transmission System Simulation
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2024</i>
-							<div style="height: 8px;"></div>
-							Baseband communication model with filtering, noise analysis, and eye diagrams.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<div style="height: 20px"></div>
 
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<td width="400px">
-							<img src="./files/works/projects/frequency_analysis.svg"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Frequency-Domain Analysis of Discrete-Time Signals and Systems
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2024</i>
-							<div style="height: 8px;"></div>
-							Implemented DFT/IDFT to analyze signals and system stability in frequency domain.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<table width="100%" style="margin-top: 0px">
+			<tbody>
+				<tr>
+					<td width="320">
+						<!-- Institute Logo -->
+						<img src="./files/institutes/rutgers_university_the_state_university_of_new_jersey_full.png"
+							width="280px" style="display: block; margin: 0 auto;">
+					</td>
+					<td>
+						<p><b><a href="https://www.rutgers.edu/" target="_blank">Rutgers University</a>, New
+								Brunswick</b></p>
+						<div style="font-size: 16px">
+							<i>Jun. 2025 - Present</i>
+						</div>
+						<div style="font-size: 16px">
+							Research Intern (Supervisor: Prof. <a href="https://arc-l.github.io/"
+								target="_blank">Jingjin Yu</a>)
+						</div>
+						<div style="font-size: 16px">
+							Research Focus: Robotics and Task Planning
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<td width="400px">
-							<img src="./files/works/projects/multi-functional_quiz_system.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Multi-Functional Quiz Buzzer System
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2024</i>
-							<div style="height: 8px;"></div>
-							8-channel digital quiz buzzer with countdown timer and priority logic.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<!-- ========== Projects Section ========== -->
+		<h2>Projects</h2>
+		<!-- Project Template -->
+		<table style="border-spacing:2px; font-size: 16px">
+			<tbody>
+				<tr>
+					<!-- Image Column -->
+					<td width="400px">
+						<img src="./files/works/projects/plant3d.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<!-- Description Column -->
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Plant3D: A Self-Constructed Plant 3D Reconstruction Dataset
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2025</i>
+						<div style="height: 8px;"></div>
+						A self-constructed dataset for <b>RGB-D based plant 3D reconstruction</b>, containing multiple
+						reconstructed plant instances with raw, masked, sparse, and dense results.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<td width="400px">
-							<img src="./files/works/projects/electronic_music_box.png" height="120px" style="display: block; margin: 0 auto;">
-						</td>
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Electronic Music Box
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2023</i>
-							<div style="height: 8px;"></div>
-							Custom PCB-based music box with selectable songs and light circuits.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<table style="border-spacing:2px; font-size: 16px">
+			<tbody>
+				<tr>
+					<!-- Image Column -->
+					<td width="400px">
+						<img src="./files/works/projects/obj3d.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<!-- Description Column -->
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Obj3D: A Self-Constructed Multi-Object 3D Reconstruction Dataset
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2025</i>
+						<div style="height: 8px;"></div>
+						A self-constructed dataset for <b>RGB-D based 3D reconstruction of multiple object
+							categories</b>, useful for benchmarking and validating reconstruction pipelines.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-			<table style="border-spacing:2px; font-size: 16px;">
-				<tbody>
-					<tr>
-						<td width="400px">
-							<img src="./files/works/projects/electronic_keyboard.png"  height="140px" style="display: block; margin: 0 auto;">
-						</td>
-						<td style="font-size: 16px;">
-							<b style="font-size: 16px;">Electronic Keyboard
-							</b>
-							<div style="height: 8px;"></div>
-							<i>2023</i>
-							<div style="height: 8px;"></div>
-							21-key digital keyboard with adjustable pitch and tone synthesis.<br>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<!-- ========== End Projects Section ========== -->
+		<table style="border-spacing:2px; font-size: 16px">
+			<tbody>
+				<tr>
+					<!-- Image Column -->
+					<td width="400px">
+						<img src="./files/works/projects/handwriteen_chinese_sentence_recognition.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<!-- Description Column -->
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Handwritten Chinese Sentence Recognition using CNN-CTC
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2025</i>
+						<div style="height: 8px;"></div>
+						End-to-end handwritten Chinese text recognition system using CNN, BiLSTM, and CTC.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-			<!-- ========== Leadership & Service Section ========== -->
-			<h2>Leadership & Service</h2>
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<td width="400px">
+						<img src="./files/works/projects/histopathology_classification.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Pathology Slide Classification & LLM Distillation
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2025</i>
+						<div style="height: 8px;"></div>
+						Automatic pathology slide classification with CNNs and LLM-based knowledge distillation.<br>
+						<div style="height: 8px;"></div>
+						Project Link: <a
+							href="https://github.com/yixuanhuang04/histopathology-classification">https://github.com/yixuanhuang04/histopathology-classification</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px">
+			<tbody>
+				<tr>
+					<!-- Image Column -->
+					<td width="400px">
+						<img src="./files/works/projects/scene_graph.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<!-- Description Column -->
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Scene Graph Generation
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2025</i>
+						<div style="height: 8px;"></div>
+						Implemented structured visual understanding pipeline for modeling object relationships.<br>
+						<div style="height: 8px;"></div>
+						Project Link: <a
+							href="https://github.com/yixuanhuang04/scene-graph">https://github.com/yixuanhuang04/scene-graph</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<td width="400px">
+						<img src="./files/works/projects/electronic_password_lock_system.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Electronic Password Lock System
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2025</i>
+						<div style="height: 8px;"></div>
+						FPGA-based secure access system with password reset and unlock features.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px">
+			<tbody>
+				<tr>
+					<!-- Image Column -->
+					<td width="400px">
+						<img src="./files/works/projects/multifunctional_digital_clock.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<!-- Description Column -->
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Multifunctional Digital Clock
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2024</i>
+						<div style="height: 8px;"></div>
+						Designed external circuits and firmware on a microcontroller; implemented Pomodoro timer,
+						countdown, and stopwatch functions.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px">
+			<tbody>
+				<tr>
+					<!-- Image Column -->
+					<td width="400px">
+						<img src="./files/works/projects/tourism_analytics.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<!-- Description Column -->
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Tourism Website Big Data Analysis
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2024</i>
+						<div style="height: 8px;"></div>
+						Web scraping with Jsoup, storage in HBase, visualization with ECharts for hotel pricing and
+						reviews.<br>
+						<div style="height: 8px;"></div>
+						Project Link: <a
+							href="https://github.com/yixuanhuang04/tourism-analytics">https://github.com/yixuanhuang04/tourism-analytics</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<td width="400px">
+						<img src="./files/works/projects/digital_baseband_transmission_system.svg" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Digital Baseband Transmission System Simulation
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2024</i>
+						<div style="height: 8px;"></div>
+						Baseband communication model with filtering, noise analysis, and eye diagrams.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<td width="400px">
+						<img src="./files/works/projects/frequency_analysis.svg" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Frequency-Domain Analysis of Discrete-Time Signals and Systems
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2024</i>
+						<div style="height: 8px;"></div>
+						Implemented DFT/IDFT to analyze signals and system stability in frequency domain.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<td width="400px">
+						<img src="./files/works/projects/multi-functional_quiz_system.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Multi-Functional Quiz Buzzer System
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2024</i>
+						<div style="height: 8px;"></div>
+						8-channel digital quiz buzzer with countdown timer and priority logic.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<td width="400px">
+						<img src="./files/works/projects/electronic_music_box.png" height="120px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Electronic Music Box
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2023</i>
+						<div style="height: 8px;"></div>
+						Custom PCB-based music box with selectable songs and light circuits.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="border-spacing:2px; font-size: 16px;">
+			<tbody>
+				<tr>
+					<td width="400px">
+						<img src="./files/works/projects/electronic_keyboard.png" height="140px"
+							style="display: block; margin: 0 auto;">
+					</td>
+					<td style="font-size: 16px;">
+						<b style="font-size: 16px;">Electronic Keyboard
+						</b>
+						<div style="height: 8px;"></div>
+						<i>2023</i>
+						<div style="height: 8px;"></div>
+						21-key digital keyboard with adjustable pitch and tone synthesis.<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- ========== Leadership & Service Section ========== -->
+		<h2>Leadership & Service</h2>
+		<div style="font-size: 16px; line-height: 1.4;">
+			<div>2022 - Present, Director of Student Affairs, School of Information Engineering, Wuhan University of
+				Technology</div>
+			<div>2022 - 2025, President of Class Committee (Class Leader for 3 consecutive years), Wuhan University of
+				Technology</div>
+			<div>2022 - 2024, Executive Director, Wuhan University of Technology</div>
+		</div>
+
+		<!-- Some interested things about me -->
+		<h2 style="margin: 0; display: flex; justify-content: space-between; align-items: center;">
+			Bits of Me
+			<a href="me.html" style="font-size: 18px;" text-decoration: none;>[More About Me]</a>
+		</h2>
+
+		<div style="font-size: 16px;">
+			<p>I'm glad you've made it this far. By now, you probably have a sense of my academic journey and
+				achievements—but that has never been the whole of who I am. In this section, I want to share a different
+				side of me: the person beyond work, the more genuine me.</p>
+			<p>It is these moments, interests, and memories that make me who I truly am. I sincerely hope that while
+				pursuing your own academic or professional path, you also find joy in life—because these experiences are
+				irreplaceable and deeply meaningful.</p>
+			<p>I am grateful to my family, friends, and colleagues, who are not only vital to my academic life but also
+				the ones who bring richness and meaning to my everyday existence. And if you are reading this now, I
+				hope that someday we may share a wonderful experience together too.</p>
+		</div>
+		<div>
 			<div style="font-size: 16px; line-height: 1.4;">
-				<div>2022 - Present, Director of Student Affairs, School of Information Engineering, Wuhan University of Technology</div>
-				<div>2022 - 2025, President of Class Committee (Class Leader for 3 consecutive years), Wuhan University of Technology</div>
-				<div>2022 - 2024, Executive Director, Wuhan University of Technology</div>
-			</div>
-			<!-- ========== End Leadership & Service Section ========== -->
-
-			<!-- Some interested things about me -->
-			<h2 style="margin: 0; display: flex; justify-content: space-between; align-items: center;">
-				Bits of Me
-				<a href="me.html" style="font-size: 18px;" text-decoration: none;>[More About Me]</a>
-			</h2>
-
-			<div style="font-size: 16px;">
-				<p>I'm glad you've made it this far. By now, you probably have a sense of my academic journey and achievements—but that has never been the whole of who I am. In this section, I want to share a different side of me: the person beyond work, the more genuine me.</p>
-				<p>It is these moments, interests, and memories that make me who I truly am. I sincerely hope that while pursuing your own academic or professional path, you also find joy in life—because these experiences are irreplaceable and deeply meaningful.</p>
-				<p>I am grateful to my family, friends, and colleagues, who are not only vital to my academic life but also the ones who bring richness and meaning to my everyday existence. And if you are reading this now, I hope that someday we may share a wonderful experience together too.</p>
-			</div>
-			<div><div style="font-size: 16px; line-height: 1.4;">
 				<div>My Intereste: guiter, tennis, table tennis, video game, traveling, reading.</div>
-				<div>My Philosophy: “To establish the mind for Heaven and Earth, to secure the destiny of the people, to continue the wisdom of the sages, and to bring peace to all generations.”</div>
+				<div>My Philosophy: “To establish the mind for Heaven and Earth, to secure the destiny of the people, to
+					continue the wisdom of the sages, and to bring peace to all generations.”</div>
 			</div>
 		</div>
 
 		<!-- ClustrMaps Tracker -->
 		<div style="height: 20px;"></div>
-		<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=480&t=tt&d=qkyaUk8ZTCcRU7WCFxztDE-T9QhniwOZBAYp6BcmMYA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+		<script type='text/javascript' id='clustrmaps'
+			src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=480&t=tt&d=qkyaUk8ZTCcRU7WCFxztDE-T9QhniwOZBAYp6BcmMYA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 
 		<!-- Footer Section -->
 		<div style="margin: -20pt;"></div>
-			<div id="footer">
-				<div id="footer-text"></div>
-			</div>
-			<p>
-				<center>
-					<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-					<a style="color: black; font-size: small;">
-						<i>Latest updated in Sep. 2025</i>
-					</a>
-					<p></p>
-					<center>© Yixuan Huang</center>
-					<p></p>
-				</center>
-		
-	</body>
+		<div id="footer">
+			<div id="footer-text"></div>
+		</div>
+		<p></p>
+		<div style="text-align: center;">
+			<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+			<a style="color: black; font-size: small;">
+				<i>Latest updated in Sep. 2025</i>
+			</a>
+			<p></p>
+			<div style="text-align: center;">© Yixuan Huang</div>
+			<p></p>
+		</div>
+</body>
+
 </html>
