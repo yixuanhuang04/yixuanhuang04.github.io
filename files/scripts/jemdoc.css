@@ -82,12 +82,15 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #3670c9;
+	color: #0969da;
 	text-decoration: none;
+	transition: color 0.2s;
 }
 
 a:hover {
-	border-bottom: 1px gray dotted;
+	color: #393cd5;
+	text-decoration: none;
+	border-bottom: none;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
