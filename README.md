@@ -1,32 +1,34 @@
 # Personal Homepage
 
-Welcome to my personal homepage repository! This repository hosts the source code and content for my online presence, which showcases my academic background, research interests, and projects. I am currently a third-year undergraduate student majoring in **Electronic Information Engineering** at **Wuhan University of Technology**. I am passionate about **robotics** and am actively seeking **remote research opportunities**.
+This repository hosts the source code for my personal homepage: [yixuanhuang04.github.io](https://yixuanhuang04.github.io/).
+It presents my academic journey, research interests, projects, honors, experiences, and also a dedicated space for reflections _beyond academia_.
 
-## Contents
+## Overview
 
-- **Academic Background**: Information about my current studies and achievements.
-- **Research Interests**: My interests in the field of robotics and related technologies.
-- **Projects**: A list of projects I have worked on, including both academic and personal projects.
-- **Contact Information**: How to get in touch with me for collaborations or opportunities.
+- **Biography**: Final-year undergraduate at **Wuhan University of Technology**, majoring in **Electronic Information Engineering**. Passionate about **robotics, AI, computer vision, and task planning**.
+- **Research Interests**: Lifelong robot learning, multi-agent cooperation, embodied intelligence, and autonomous decision-making.
+- **Education**: B.Eng. at WHUT, GPA: 91/100.
+- **Experience**: Research internships at **Shanghai AI Research Institute** and **Rutgers University (ARC-L Lab)**.
+- **Honors & Awards**: University scholarships, _Excellent Student (Top 1%)_, _Provincial First Prize in China College Engineering Practice and Innovation Competition (2nd Nationwide)_.
+- **Projects**: Includes **Plant3D Dataset**, **Autonomous Driving Simulation**, and other works in robotics and vision.
+- **Leadership & Service**: Student Affairs Director, Class Committee President, and active roles in WHUT organizations.
+- **Beyond Academia**: A space to share a more complete version of myself—personal reflections, philosophy, and interests (e.g., guitar, tennis, traveling, reading).
 
 ## Skills
 
-- **Languages**: Python, C/C++, Java, MATLAB, Assembly Language, VHDL
-- **Tools/Technologies**: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design Software, Machine Learning
-- **Hardware**: Circuit design, soldering, microcontroller programming
-
-## How to View My Homepage
-
-You can view the live version of my personal homepage at [Homepage](https://yixuanhuangm.github.io/).
+- **Programming**: Python, C/C++, Java, MATLAB, Assembly, VHDL
+- **Tools**: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design
+- **Hardware**: Microcontroller programming, circuit design, soldering
 
 ## Contact
 
-Feel free to reach out to me via email at [yixuanhm@gmail.com](mailto:yixuanhm@gmail.com) for research collaborations or any inquiries.
+- Email: [yixuanhm@gmail.com](mailto:yixuanhm@gmail.com)
+- [Google Scholar](https://scholar.google.com/citations?user=vJPa3CEAAAAJ&hl=en) · [GitHub](https://github.com/yixuanhuang04) · [Twitter](https://twitter.com/yixuanhuang_)
+- More ways to reach me are available on my [contact page](https://yixuanhuang04.github.io/contact).
 
-## Future Updates
+## Updates
 
-- Continuously updating content as I complete new projects or research.
-- Adding more detailed information about my research work and publications in the future.
-- Plan to change the current theme into *JonBarron*
+This website is continuously updated with:
 
-Thank you for visiting my repository!
+- New research projects and publications
+- Expanded content on academic work and personal reflections (_especially in the “Beyond Academia” section_)
