@@ -529,33 +529,53 @@ table {
   }
 }
 
+/* Poem block container */
 .poem-block {
   margin-top: 6px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the whole poem block */
-  font-style: italic; /* Slight italic for style */
-  font-size: 16px; /* Match normal text size */
+  align-items: center;
+  font-style: italic;
 }
 
+/* Each line of the poem */
 .poem-line {
   display: flex;
-  justify-content: flex-start; /* Left align Chinese and English */
-  gap: 32px; /* Gap between Chinese and English */
-  margin: 2px 0; /* Same spacing as normal text */
-  width: fit-content; /* Auto width based on content */
+  justify-content: flex-start;
+  gap: 32px;
+  margin: 2px 0;
+  width: fit-content;
 }
 
+/* Poem line spans */
 .poem-line span {
   text-align: left;
-  font-size: 16px; /* Ensure same size for both columns */
 }
 
+/* Left column (Chinese) */
 .poem-line span:first-child {
-  min-width: 140px; /* Keep left column stable */
+  min-width: 140px;
 }
 
+/* Right column (English) */
 .poem-line span:last-child {
-  min-width: 320px; /* Keep right column stable */
-  font-family: "Times New Roman", serif; /* Font for English poetry */
+  min-width: 320px;
+  font-family: "Times New Roman", serif;
+}
+
+/* Responsive adjustments for narrow screens */
+@media (max-width: 480px) {
+  .poem-line {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .poem-line span:first-child,
+  .poem-line span:last-child {
+    min-width: 0;
+  }
+
+  .poem-line span:last-child {
+    width: 100%;
+  }
 }
