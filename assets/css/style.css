@@ -1,10 +1,9 @@
-/* Custom css file from jemdoc. */
-
 table#tlayout {
   border: none;
   border-collapse: separate;
   background: white;
 }
+
 img {
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -12,13 +11,7 @@ img {
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-/*
-body {
-	background: white;
-	padding-bottom: 8px;
-	margin: 0;
-}
-*/
+
 html {
   background-color: #eeeeee;
 }
@@ -27,7 +20,7 @@ body {
   font-family: Georgia, serif;
   color: #000;
   background-color: #ffffff;
-  text-align: left; /* for IE */
+  text-align: left;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -42,10 +35,10 @@ body {
 #layout-menu {
   background: #f6f6f6;
   border: 1px solid #dddddd;
-  padding-top: 0.5em;
+  padding-top: 8px;
   padding-left: 8px;
   padding-right: 8px;
-  font-size: 1em;
+  font-size: 16px;
   width: auto;
   white-space: nowrap;
   text-align: left;
@@ -58,7 +51,7 @@ body {
 }
 
 #layout-content {
-  padding-top: 0em;
+  padding-top: 0px;
   padding-left: 16px;
   padding-right: 16px;
   border: none;
@@ -68,8 +61,8 @@ body {
 }
 
 #layout-menu a {
-  line-height: 1.5em;
-  margin-left: 0.5em;
+  line-height: 24px;
+  margin-left: 8px;
 }
 
 tt {
@@ -100,21 +93,23 @@ a:hover {
   color: #022b6d;
   border-bottom: 1px gray solid;
 }
+
 #layout-menu a:link,
 #layout-menu a:visited,
 #layout-menu a:hover {
   color: #527bbd;
   text-decoration: none;
 }
+
 #layout-menu a:hover {
   text-decoration: none;
 }
 
 div.menu-category {
   border-bottom: 1px solid gray;
-  margin-top: 0.8em;
-  padding-top: 0.2em;
-  padding-bottom: 0.1em;
+  margin-top: 13px;
+  padding-top: 3px;
+  padding-bottom: 2px;
   font-weight: bold;
 }
 
@@ -124,22 +119,20 @@ div.menu-item {
 }
 
 div#toptitle {
-  padding-bottom: 0.2em;
-  margin-bottom: 1.5em;
-  /*border-bottom: 3px double gray;*/
+  padding-bottom: 3px;
+  margin-bottom: 20px;
 }
 
-/* Reduce space if we begin the page with a title. */
 div#toptitle + h2,
 div#toptitle + h3 {
-  margin-top: 0em;
+  margin-top: 0px;
 }
 
 div#subtitle {
-  margin-top: 0em;
-  margin-bottom: 0em;
-  padding-top: 0em;
-  padding-bottom: 0.1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 2px;
 }
 
 em {
@@ -154,26 +147,24 @@ h1,
 h2,
 h3 {
   color: #054095;
-  margin-top: 0.7em;
-  margin-bottom: 0.5em;
-  padding-bottom: 0.2em;
+  margin-top: 11px;
+  margin-bottom: 8px;
+  padding-bottom: 3px;
   line-height: 1;
-  padding-top: 0.5em;
+  padding-top: 8px;
   border-bottom: 1px solid #aaaaaa;
 }
 
 h1 {
   font-size: 32px;
-  padding-bottom: 0.3em;
 }
 
 h2 {
-  padding-top: 0.8em;
   font-size: 20px;
 }
 
 h2 + h3 {
-  padding-top: 0.2em;
+  padding-top: 3px;
 }
 
 h3 {
@@ -196,8 +187,8 @@ pre {
 div#footer {
   font-size: small;
   border-top: 1px solid #c0c0c0;
-  padding-top: 0.1em;
-  margin-top: 4em;
+  padding-top: 2px;
+  margin-top: 64px;
   color: #c0c0c0;
 }
 
@@ -213,13 +204,13 @@ div#footer-text {
 ul,
 ol,
 dl {
-  margin-top: 0.2em;
+  margin-top: 3px;
   padding-top: 0;
-  margin-bottom: 0.8em;
+  margin-bottom: 13px;
 }
 
 dt {
-  margin-top: 0.5em;
+  margin-top: 8px;
   margin-bottom: 0;
 }
 
@@ -242,7 +233,7 @@ ul {
 
 p + ul,
 p + ol {
-  margin-top: -0.5em;
+  margin-top: -8px;
 }
 
 ol {
@@ -252,7 +243,7 @@ ol {
 
 li p,
 dd p {
-  margin-bottom: 0.3em;
+  margin-bottom: 5px;
 }
 
 ol ol {
@@ -264,26 +255,26 @@ ol ol ol {
 }
 
 p + div.codeblock {
-  margin-top: -0.6em;
+  margin-top: -10px;
 }
 
 div.codeblock,
 div.infoblock {
   margin-right: 0%;
-  margin-top: 1.2em;
-  margin-bottom: 1.3em;
+  margin-top: 19px;
+  margin-bottom: 21px;
 }
 
 div.blocktitle {
   font-weight: bold;
   color: #cd7b62;
-  margin-top: 1.2em;
-  margin-bottom: 0.1em;
+  margin-top: 19px;
+  margin-bottom: 2px;
 }
 
 div.blockcontent {
   border: 1px solid silver;
-  padding: 0.3em 0.5em;
+  padding: 5px 8px;
 }
 
 div.infoblock > div.blockcontent {
@@ -292,20 +283,20 @@ div.infoblock > div.blockcontent {
 
 div.blockcontent p + ul,
 div.blockcontent p + ol {
-  margin-top: 0.4em;
+  margin-top: 6px;
 }
 
 div.infoblock p {
-  margin-bottom: 0em;
+  margin-bottom: 0px;
 }
 
 div.infoblock li p,
 div.infoblock dd p {
-  margin-bottom: 0.5em;
+  margin-bottom: 8px;
 }
 
 div.infoblock p + p {
-  margin-top: 0.8em;
+  margin-top: 13px;
 }
 
 div.codeblock > div.blockcontent {
@@ -319,18 +310,23 @@ span.pycommand {
 span.statement {
   color: #008800;
 }
+
 span.builtin {
   color: #000088;
 }
+
 span.special {
   color: #990000;
 }
+
 span.operator {
   color: #880000;
 }
+
 span.error {
   color: #aa0000;
 }
+
 span.comment,
 span.comment > *,
 span.string,
@@ -349,41 +345,41 @@ span.string > * {
 }
 
 #fwtitle #toptitle {
-  padding-left: 0.5em;
-  margin-bottom: 0.5em;
+  padding-left: 8px;
+  margin-bottom: 8px;
 }
 
 #layout-content h1:first-child,
 #layout-content h2:first-child,
 #layout-content h3:first-child {
-  margin-top: -0.7em;
+  margin-top: -11px;
 }
 
 div#toptitle h1,
 #layout-content div#toptitle h1 {
-  margin-bottom: 0em;
-  padding-bottom: 0.1em;
-  padding-top: 0;
-  margin-top: 0.5em;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  padding-top: 0px;
+  margin-top: 8px;
   border-bottom: none;
 }
 
 img.eq {
   padding: 0;
-  padding-left: 0.1em;
-  padding-right: 0.1em;
+  padding-left: 2px;
+  padding-right: 2px;
   margin: 0;
 }
 
 img.eqwl {
-  padding-left: 2em;
-  padding-top: 0.6em;
-  padding-bottom: 0.2em;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 3px;
   margin: 0;
 }
 
 table + table {
-  margin-top: 1em;
+  margin-top: 16px;
 }
 
 tr.heading {
@@ -401,30 +397,25 @@ table.imgtable td {
   text-align: left;
 }
 
-/* Table style: collapse borders */
 table {
   border-collapse: collapse;
 }
 
-/* Small image styling */
 .smaller-image {
   width: 20%;
 }
 
-/* Container for image/video positioning */
 .container {
   position: relative;
   display: inline-block;
 }
 
-/* Image style: block display with rounded corners */
 .image {
   display: block;
   border-radius: 10px;
   max-width: 100%;
 }
 
-/* Video label styling */
 .video-label {
   position: absolute;
   top: 5px;
@@ -443,15 +434,12 @@ table {
   font-size: small;
 }
 
-/* Research highlight grid layout */
 .research-hightlight {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  /* Gap between grid items */
 }
 
-/* Arxiv label styling */
 .arxiv-label {
   position: absolute;
   top: 10px;
@@ -470,7 +458,6 @@ table {
   font-size: x-small;
 }
 
-/* Scroll wrapper for horizontal scrolling content */
 .scroll-wrapper {
   width: 100%;
   overflow: hidden;
@@ -478,7 +465,6 @@ table {
   position: relative;
 }
 
-/* Scroll content animation */
 .scroll-content {
   display: inline-block;
   white-space: nowrap;
@@ -492,40 +478,31 @@ table {
   margin-right: 0px;
 }
 
-/* Keyframes for horizontal scrolling */
 @keyframes scroll-left {
   0% {
     transform: translateX(0%);
   }
-
   100% {
     transform: translateX(-50%);
   }
 }
 
-/* Pause scrolling on hover */
 .scroll-wrapper:hover .scroll-content {
   animation-play-state: paused;
 }
 
 @keyframes octocat-wave {
-  0%,
-  100% {
+  0%, 100% {
     transform: rotate(0);
   }
-
-  20%,
-  60% {
+  20%, 60% {
     transform: rotate(-25deg);
   }
-
-  40%,
-  80% {
+  40%, 80% {
     transform: rotate(10deg);
   }
 }
 
-/* Poem block container */
 .poem-block {
   margin-top: 6px;
   display: flex;
@@ -534,7 +511,6 @@ table {
   font-style: italic;
 }
 
-/* Each line of the poem */
 .poem-line {
   display: flex;
   justify-content: flex-start;
@@ -543,17 +519,14 @@ table {
   width: fit-content;
 }
 
-/* Poem line spans */
 .poem-line span {
   text-align: left;
 }
 
-/* Left column (Chinese) */
 .poem-line span:first-child {
   min-width: 140px;
 }
 
-/* Right column (English) */
 .poem-line span:last-child {
   min-width: 320px;
 }
