@@ -16,14 +16,14 @@ It presents my academic journey, research interests, projects, honors, experienc
 
 ## Skills
 
-- **Programming**: Python, C/C++, Java, MATLAB, Assembly, VHDL
+- **Programming**: Python, C/C++, Java, MATLAB, Assembly, VHDL, HTML
 - **Tools**: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design
 - **Hardware**: Microcontroller programming, circuit design, soldering
 
 ## Contact
 
-- Email: [yixuanhm@gmail.com](mailto:yixuanhm@gmail.com)
-- [Google Scholar](https://scholar.google.com/citations?user=vJPa3CEAAAAJ&hl=en) · [GitHub](https://github.com/yixuanhuang04) · [Twitter](https://twitter.com/yixuanhuang_)
+- Email: [yixuanhuang2004@gmail.com](mailto:yixuanhuang2004@gmail.com)
+- [Google Scholar](https://scholar.google.com/citations?user=vJPa3CEAAAAJ&hl=en) | [GitHub](https://github.com/yixuanhuang04) | [Twitter](https://twitter.com/yixuanhuang_)
 - More ways to reach me are available on my [contact page](https://yixuanhuang04.github.io/contact).
 
 ## Updates
@@ -31,4 +31,4 @@ It presents my academic journey, research interests, projects, honors, experienc
 This website is continuously updated with:
 
 - New research projects and publications
-- Expanded content on academic work and personal reflections (_especially in the “Beyond Academia” section_)
+- Expanded content on academic work and personal reflections (_especially in the “[Beyond Academia](https://yixuanhuang04.github.io/beyond-academia)” section_)
