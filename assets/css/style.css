@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: -apple-system, "SF Pro Text", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000;
   background-color: #ffffff;
   text-align: left;
@@ -528,7 +528,7 @@ table {
 }
 
 .poem-line span:last-child {
-  min-width: 320px;
+  min-width: 360px;
 }
 
 .reflection {
