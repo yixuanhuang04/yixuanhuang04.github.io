@@ -20,7 +20,7 @@ html {
 
 body {
   font-family: -apple-system, "SF Pro Text", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #000;
+  color: #000000;
   background-color: #ffffff;
   text-align: left;
   margin-top: 30px;
@@ -33,6 +33,13 @@ body {
   padding-bottom: 30px;
   max-width: 960px;
   min-width: 780px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
 }
 
 #layout-menu {
@@ -61,6 +68,15 @@ body {
   background: white;
   text-align: left;
   vertical-align: top;
+}
+
+@media (prefers-color-scheme: dark) {
+    #layout-content,
+    #layout-content td,
+    #layout-content table {
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
 }
 
 #layout-menu a {
@@ -156,6 +172,14 @@ h3 {
   line-height: 1;
   padding-top: 8px;
   border-bottom: 1px solid #aaaaaa;
+}
+
+@media (prefers-color-scheme: dark) {
+    h1,
+    h2,
+    h3 {
+      color: #0860c0;
+    }
 }
 
 h1 {
