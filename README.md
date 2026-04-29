@@ -5,7 +5,7 @@ It presents my academic journey, research interests, projects, honors, experienc
 
 ## Overview
 
-- **Biography**: Final-year undergraduate at **Wuhan University of Technology**, majoring in **Electronic Information Engineering**. Passionate about **robotics, AI, computer vision, and task planning**.
+- **Biography**: I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank">Robotics</a>** for fall 2026 at **<a href="https://umich.edu/" target="_blank">University of Michigan</a>**. Passionate about **robotics, AI, computer vision, and task planning**.
 - **Research Interests**: Lifelong robot learning, multi-agent cooperation, embodied intelligence, and autonomous decision-making.
 - **Education**: B.Eng. at WHUT, GPA: 91/100.
 - **Experience**: Research internships at **Shanghai AI Research Institute** and **Rutgers University (ARC-L Lab)**.
@@ -22,8 +22,8 @@ It presents my academic journey, research interests, projects, honors, experienc
 
 ## Contact
 
-- Email: [yixuanhuang2004@gmail.com](mailto:yixuanhuang2004@gmail.com)
-- [Google Scholar](https://scholar.google.com/citations?user=vJPa3CEAAAAJ&hl=en) | [GitHub](https://github.com/yixuanhuang04) | [Twitter](https://twitter.com/yixuanhuang_)
+- Email: [yixhuang@umich.edu](mailto:yixhuang@umich.edu)
+- [Google Scholar](https://scholar.google.com/citations?user=MSYQrK4AAAAJ&hl=en) | [GitHub](https://github.com/yixuanhuang04) | [Twitter](https://twitter.com/yixuanhuang_)
 - More ways to reach me are available on my [contact page](https://yixuanhuang04.github.io/contact).
 
 ## Updates
