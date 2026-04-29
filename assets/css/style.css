@@ -1,7 +1,7 @@
 table#tlayout {
   border: none;
   border-collapse: separate;
-  background: white;
+  background: #ffffff;
 }
 
 img {
@@ -73,7 +73,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   border: none;
-  background: white;
+  background: #ffffff;
   text-align: left;
   vertical-align: top;
 }
@@ -110,7 +110,7 @@ a > tt {
 }
 
 a:hover {
-  color: #393cd5;
+  color: #ffcb05;
   text-decoration: none;
   border-bottom: none;
 }
@@ -173,7 +173,7 @@ strong {
 h1,
 h2,
 h3 {
-  color: #054095;
+  color: #0552be;
   margin-top: 11px;
   margin-bottom: 8px;
   padding-bottom: 3px;
@@ -186,7 +186,7 @@ h3 {
   h1,
   h2,
   h3 {
-    color: #0860c0;
+    color: #2c79cc;
   }
 }
 
@@ -456,7 +456,7 @@ table {
   top: 5px;
   left: 5px;
   background-color: #ea3323;
-  color: white;
+  color: #ffffff;
   padding: 0px 10px;
   border-radius: 3px;
   font-weight: bold;
@@ -482,7 +482,7 @@ table {
   top: 10px;
   left: -5px;
   background-color: #a624a6;
-  color: white;
+  color: #ffffff;
   padding: 0px 10px;
   border-radius: 3px;
   font-weight: bold;
@@ -628,4 +628,26 @@ table {
   border: 1px solid #0077ff;
   padding: 5px 12px;
   border-radius: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background: rgba(40, 40, 40, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  .navbar a {
+    color: #dddddd;
+  }
+
+  .navbar a:hover {
+    color: #4da3ff;
+  }
+
+  .navbar.scrolled {
+    background: rgba(30, 30, 30, 0.85);
+  }
 }
