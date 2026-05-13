@@ -42,17 +42,17 @@ body {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #1e1e1e;
+    background-color: #1d1d1f;
   }
   body {
-    background-color: #1e1e1e;
+    background-color: #1d1d1f;
     color: #ffffff;
   }
 }
 
 #layout-menu {
   background: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #ffffff;
   padding-top: 8px;
   padding-left: 8px;
   padding-right: 8px;
@@ -82,7 +82,7 @@ body {
   #layout-content,
   #layout-content td,
   #layout-content table {
-    background-color: #1e1e1e;
+    background-color: #1d1d1f;
     color: #ffffff;
   }
 }
@@ -104,7 +104,7 @@ tt {
 
 a,
 a > tt {
-  color: #0969da;
+  color: #0071e3;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -173,7 +173,7 @@ strong {
 h1,
 h2,
 h3 {
-  color: #0552be;
+  color: #1d1d1f;
   margin-top: 11px;
   margin-bottom: 8px;
   padding-bottom: 3px;
@@ -186,7 +186,7 @@ h3 {
   h1,
   h2,
   h3 {
-    color: #2c79cc;
+    color: #ffffff;
   }
 }
 
@@ -598,7 +598,6 @@ table {
   -webkit-backdrop-filter: blur(10px);
 
   background: rgba(255, 255, 255, 0.65);
-  border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 0 0 14px 14px;
 
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -613,17 +612,16 @@ table {
 .navbar a {
   margin: 0 15px;
   text-decoration: none;
-  color: #333;
+  color: #000000;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .navbar a:hover {
-  color: #0077ff;
+  color: #0066cc;
 }
 
 .btn {
-  border: 1px solid #0077ff;
   padding: 5px 12px;
   border-radius: 6px;
 }
@@ -631,7 +629,6 @@ table {
 @media (prefers-color-scheme: dark) {
   .navbar {
     background: rgba(40, 40, 40, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.08);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   }
 

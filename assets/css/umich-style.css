@@ -1,7 +1,7 @@
 table#tlayout {
   border: none;
   border-collapse: separate;
-  background: #ffffff;
+  background: #edf1f8;
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 }
 
 html {
-  background-color: #ffffff;
+  background-color: #edf1f8;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   scroll-behavior: smooth;
@@ -25,7 +25,7 @@ body {
     -apple-system, "SF Pro Text", "SF Pro Display", "SF Pro Icons",
     "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #edf1f8;
   text-align: left;
   font-size: 16px;
   margin-top: 70px;
@@ -42,16 +42,16 @@ body {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #1e1e1e;
+    background-color: #00142C;
   }
   body {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: #00142C;
+    color: #fafafa;
   }
 }
 
 #layout-menu {
-  background: #ffffff;
+  background: #f6f6f6;
   border: 1px solid #dddddd;
   padding-top: 8px;
   padding-left: 8px;
@@ -73,7 +73,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   border: none;
-  background: #ffffff;
+  background: #edf1f8;
   text-align: left;
   vertical-align: top;
 }
@@ -82,8 +82,8 @@ body {
   #layout-content,
   #layout-content td,
   #layout-content table {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: #00142C;
+    color: #fafafa;
   }
 }
 
@@ -104,9 +104,16 @@ tt {
 
 a,
 a > tt {
-  color: #0969da;
+  color: #2f65a7;
   text-decoration: none;
   transition: color 0.2s;
+}
+
+@media (prefers-color-scheme: dark) {
+  a,
+  a > tt {
+    color: #51a2ff;
+  }
 }
 
 a:hover {
@@ -173,7 +180,7 @@ strong {
 h1,
 h2,
 h3 {
-  color: #0552be;
+  color: #00274c;
   margin-top: 11px;
   margin-bottom: 8px;
   padding-bottom: 3px;
@@ -186,7 +193,7 @@ h3 {
   h1,
   h2,
   h3 {
-    color: #2c79cc;
+    color: #ffffff;
   }
 }
 
@@ -597,8 +604,7 @@ table {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 
-  background: rgba(255, 255, 255, 0.65);
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #F8F9FA;
   border-radius: 0 0 14px 14px;
 
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -623,15 +629,13 @@ table {
 }
 
 .btn {
-  border: 1px solid #0077ff;
   padding: 5px 12px;
   border-radius: 6px;
 }
 
 @media (prefers-color-scheme: dark) {
   .navbar {
-    background: rgba(40, 40, 40, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #00274C;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   }
 
@@ -640,7 +644,7 @@ table {
   }
 
   .navbar a {
-    color: #ddd;
+    color: #fafafa;
   }
 
   .navbar a:hover {
