@@ -240,8 +240,9 @@ ul,
 ol,
 dl {
   margin-top: 3px;
-  padding-top: 0;
   margin-bottom: 13px;
+  padding-top: 0;
+  padding-left: 22px;
 }
 
 dt {
@@ -264,6 +265,8 @@ dd > *:first-child {
 ul {
   list-style-position: outside;
   list-style-type: square;
+  /* `square` keeps the classic academic homepage aesthetic. */
+  /* Change to `disc` for a cleaner modern appearance. */
 }
 
 p + ul,
