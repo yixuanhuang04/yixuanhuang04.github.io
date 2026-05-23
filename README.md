@@ -1,10 +1,6 @@
 # Personal Homepage
 
-This repository hosts the source code for my personal homepage: [yixuanhuang04.github.io](https://yixuanhuang04.github.io/). It presents my academic journey, research interests, projects, honors, experiences, and also a dedicated space for reflections _beyond academia_.
-
-## Overview
-
-- **Biography**: I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank">Robotics</a>** for fall 2026 at **<a href="https://umich.edu/" target="_blank">University of Michigan</a>**.
+I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank">Robotics</a>** for fall 2026 at **<a href="https://umich.edu/" target="_blank">University of Michigan</a>**. This repository hosts the source code for my personal homepage: [yixuanhuang04.github.io](https://yixuanhuang04.github.io/). It presents my academic journey, research interests, projects, honors, experiences, and also a dedicated space for reflections _beyond academia_.
 
 ## Contact
 
