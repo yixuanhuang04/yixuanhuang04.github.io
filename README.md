@@ -1,34 +1,13 @@
 # Personal Homepage
 
-This repository hosts the source code for my personal homepage: [yixuanhuang04.github.io](https://yixuanhuang04.github.io/).
-It presents my academic journey, research interests, projects, honors, experiences, and also a dedicated space for reflections _beyond academia_.
+This repository hosts the source code for my personal homepage: [yixuanhuang04.github.io](https://yixuanhuang04.github.io/). It presents my academic journey, research interests, projects, honors, experiences, and also a dedicated space for reflections _beyond academia_.
 
 ## Overview
 
-- **Biography**: I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank">Robotics</a>** for fall 2026 at **<a href="https://umich.edu/" target="_blank">University of Michigan</a>**. Passionate about **robotics, AI, computer vision, and task planning**.
-- **Research Interests**: Lifelong robot learning, multi-agent cooperation, embodied intelligence, and autonomous decision-making.
-- **Education**: B.Eng. at WHUT, GPA: 91/100.
-- **Experience**: Research internships at **Shanghai AI Research Institute** and **Rutgers University (ARC-L Lab)**.
-- **Honors & Awards**: University scholarships, _Excellent Student (Top 1%)_, _Provincial First Prize in China College Engineering Practice and Innovation Competition (2nd Nationwide)_.
-- **Projects**: Includes **Plant3D Dataset**, **Autonomous Driving Simulation**, and other works in robotics and vision.
-- **Leadership & Service**: Student Affairs Director, Class Committee President, and active roles in WHUT organizations.
-- **Beyond Academia**: A space to share a more complete version of myself—personal reflections, philosophy, and interests (e.g., guitar, tennis, traveling, reading).
-
-## Skills
-
-- **Programming**: Python, C/C++, Java, MATLAB, Assembly, VHDL, HTML
-- **Tools**: Git, Linux, LaTeX, TensorFlow, CUDA, PCB Design
-- **Hardware**: Microcontroller programming, circuit design, soldering
+- **Biography**: I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank">Robotics</a>** for fall 2026 at **<a href="https://umich.edu/" target="_blank">University of Michigan</a>**.
 
 ## Contact
 
 - Email: [yixhuang@umich.edu](mailto:yixhuang@umich.edu)
-- [Google Scholar](https://scholar.google.com/citations?user=MSYQrK4AAAAJ&hl=en) | [GitHub](https://github.com/yixuanhuang04) | [Twitter](https://twitter.com/yixuanhuang_)
+- [Google Scholar](https://scholar.google.com/citations?user=MSYQrK4AAAAJ&hl=en) | [GitHub](https://github.com/yixuanhuang04) | [Twitter](https://twitter.com/yixuanhuang04)
 - More ways to reach me are available on my [contact page](https://yixuanhuang04.github.io/contact).
-
-## Updates
-
-This website is continuously updated with:
-
-- New research projects and publications
-- Expanded content on academic work and personal reflections (_especially in the “[Beyond Academia](https://yixuanhuang04.github.io/beyond-academia)” section_)
