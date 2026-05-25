@@ -522,6 +522,7 @@ span.string > * {
 
 .project-desc {
   margin-top: 8px;
+  text-align: justify;
 }
 
 .project-desc p,
