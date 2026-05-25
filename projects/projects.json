@@ -3,31 +3,135 @@
     "title": "Agricultural Intelligent Robot",
     "year": "2025",
     "image": "../assets/images/projects/no-image.jpeg",
-    "description": "Participated in the development of an agricultural robotic system integrating mobile platform and manipulator arm.",
+    "description": "Participated in the development of an agricultural robotic system integrating a mobile platform and manipulator arm. Designed and implemented pipelines for plant data acquisition, 3D reconstruction, robot control, and data analysis, including leaf-level 3D modeling and growth indicator extraction.",
     "links": []
   },
   {
     "title": "Pathology Slide Classification & LLM Distillation",
     "year": "2025",
     "image": "../assets/images/projects/histopathology-classification.jpeg",
-    "description": "CNN + ResNet18 based classification achieving 88% accuracy with distillation.",
+    "description": "Automated pathology slide classification using CNN and ResNet18 models, achieving 88% balanced accuracy with lightweight model distillation.",
     "links": [
       {
-        "name": "GitHub",
+        "label": "GitHub",
         "url": "https://github.com/yixuanhuang04/histopathology-classification"
       }
     ]
   },
   {
-    "title": "Plant3D Dataset",
+    "title": "Pocket Frequency Meter",
     "year": "2025",
-    "image": "../assets/images/projects/plant3d.jpeg",
-    "description": "RGB-D plant reconstruction dataset with multi-level representations.",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "Designed a portable microcontroller-based frequency meter with embedded firmware, achieving ±0.1 Hz accuracy across 100+ test signals.",
     "links": [
       {
-        "name": "HuggingFace",
+        "label": "GitHub",
+        "url": "https://github.com/yixuanhuang04/pocket-frequency-meter"
+      }
+    ]
+  },
+  {
+    "title": "Enterprise Network Virtual Model",
+    "year": "2025",
+    "image": "../assets/images/projects/network-simulation.jpeg",
+    "description": "Built a virtual enterprise network and completed configuration of network segments, devices, and routing.",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/yixuanhuang04/enterprise-network-sim"
+      }
+    ]
+  },
+  {
+    "title": "Plant3D: A Self-Constructed Plant 3D Reconstruction Dataset",
+    "year": "2025",
+    "image": "../assets/images/projects/plant3d.jpeg",
+    "description": "A self-constructed RGB-D plant 3D reconstruction dataset containing raw, masked, sparse, and dense reconstructions for multiple plant instances.",
+    "links": [
+      {
+        "label": "HuggingFace",
         "url": "https://huggingface.co/datasets/yixuanhuang04/Plant3D"
       }
     ]
+  },
+  {
+    "title": "Obj3D: A Self-Constructed Multi-Object 3D Reconstruction Dataset",
+    "year": "2025",
+    "image": "../assets/images/projects/obj3d.jpeg",
+    "description": "A multi-object RGB-D 3D reconstruction dataset for benchmarking reconstruction pipelines across object categories.",
+    "links": [
+      {
+        "label": "HuggingFace",
+        "url": "https://huggingface.co/datasets/yixuanhuang04/Obj3D"
+      }
+    ]
+  },
+  {
+    "title": "Handwritten Chinese Sentence Recognition using CNN-CTC",
+    "year": "2025",
+    "image": "../assets/images/projects/handwriteen-chinese-sentence-recognition.jpeg",
+    "description": "End-to-end handwritten Chinese text recognition system using CNN, BiLSTM, and CTC.",
+    "links": []
+  },
+  {
+    "title": "Electronic Password Lock System",
+    "year": "2025",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "FPGA-based electronic password lock using finite-state machine control with functional validation.",
+    "links": []
+  },
+  {
+    "title": "Multifunctional Digital Clock",
+    "year": "2024",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "Microcontroller-based system implementing Pomodoro timer, countdown, and stopwatch functions.",
+    "links": []
+  },
+  {
+    "title": "Tourism Website Big Data Analysis",
+    "year": "2024",
+    "image": "../assets/images/projects/tourism-analytics.jpeg",
+    "description": "Web scraping with Jsoup, storage in HBase, and visualization with ECharts for hotel pricing and review analysis.",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/yixuanhuang04/tourism-analytics"
+      }
+    ]
+  },
+  {
+    "title": "Digital Baseband Transmission System Simulation",
+    "year": "2024",
+    "image": "../assets/images/projects/digital-baseband-transmission-system.svg",
+    "description": "Simulation of digital baseband transmission system analyzing ISI-free filtering and AWGN channel effects.",
+    "links": []
+  },
+  {
+    "title": "Frequency-Domain Analysis of Discrete-Time Signals and Systems",
+    "year": "2024",
+    "image": "../assets/images/projects/frequency-analysis.svg",
+    "description": "Implemented DFT/IDFT for signal analysis and frequency-domain system behavior evaluation.",
+    "links": []
+  },
+  {
+    "title": "Multi-Functional Quiz Buzzer System",
+    "year": "2024",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "8-channel digital quiz buzzer system with countdown timer and priority logic.",
+    "links": []
+  },
+  {
+    "title": "Electronic Music Box",
+    "year": "2023",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "Custom PCB-based music box with selectable songs and light control circuits.",
+    "links": []
+  },
+  {
+    "title": "Electronic Keyboard",
+    "year": "2022",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "21-key digital keyboard with adjustable pitch and tone synthesis.",
+    "links": []
   }
 ]

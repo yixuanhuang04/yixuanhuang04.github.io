@@ -12,7 +12,7 @@ function loadProjects(jsonPath, containerId) {
           .map(
             (l) => `
                         <a href="${l.url}" target="_blank">
-                            ${l.name}
+                            ${l.label}
                         </a>
                     `,
           )
