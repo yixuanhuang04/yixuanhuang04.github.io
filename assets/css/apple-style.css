@@ -48,10 +48,6 @@ a:hover {
   border-bottom: none;
 }
 
-em {
-  font-style: italic;
-}
-
 strong,
 .highlight {
   font-weight: 600;

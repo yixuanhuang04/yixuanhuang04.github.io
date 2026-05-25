@@ -396,15 +396,7 @@
 
 		<!-- Footer -->
 		<footer class="site-footer">
-			<div class="footer-meta">
-				<div class="footer-updated">
-					<i>Last updated in May 2026</i>
-				</div>
-
-				<div class="footer-copyright">
-					© 2024–2026 Yixuan Huang
-				</div>
-			</div>
+			<div id="footer-content"></div>
 		</footer>
 	</main>
 
@@ -414,6 +406,13 @@
 			'./projects/selected.json',
 			'project-list'
 		);
+	</script>
+	<script>
+		fetch("./footer/footer.html")
+			.then(res => res.text())
+			.then(html => {
+				document.getElementById("footer-content").innerHTML = html;
+			});
 	</script>
 </body>
 
