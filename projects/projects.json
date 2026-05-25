@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Agricultural Intelligent Robot",
+    "year": "2025",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "Participated in the development of an agricultural robotic system integrating mobile platform and manipulator arm.",
+    "links": []
+  },
+  {
+    "title": "Pathology Slide Classification & LLM Distillation",
+    "year": "2025",
+    "image": "../assets/images/projects/histopathology-classification.jpeg",
+    "description": "CNN + ResNet18 based classification achieving 88% accuracy with distillation.",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/yixuanhuang04/histopathology-classification"
+      }
+    ]
+  },
+  {
+    "title": "Plant3D Dataset",
+    "year": "2025",
+    "image": "../assets/images/projects/plant3d.jpeg",
+    "description": "RGB-D plant reconstruction dataset with multi-level representations.",
+    "links": [
+      {
+        "name": "HuggingFace",
+        "url": "https://huggingface.co/datasets/yixuanhuang04/Plant3D"
+      }
+    ]
+  }
+]
