@@ -13,7 +13,7 @@
     "description": "Automated pathology slide classification using CNN and ResNet18 models, achieving 88% balanced accuracy with lightweight model distillation.",
     "links": [
       {
-        "label": "GitHub",
+        "platform": "GitHub",
         "url": "https://github.com/yixuanhuang04/histopathology-classification"
       }
     ]

@@ -40,7 +40,7 @@
 		<section class="projects">
 			<h1 class="title">Projects</h1>
 
-			<!-- <div id="project-list" class="project-list"></div> -->
+			<div id="project-list" class="project-list"></div>
 		</section>
 
 		<footer class="site-footer">
@@ -60,7 +60,7 @@
 		);
 	</script>
 	<script>
-		fetch("../footer/footer.html")
+		fetch("../footer/index.html")
 			.then(res => res.text())
 			.then(html => {
 				document.getElementById("footer-content").innerHTML = html;

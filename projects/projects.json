@@ -13,8 +13,9 @@
     "description": "Automated pathology slide classification using CNN and ResNet18 models, achieving 88% balanced accuracy with lightweight model distillation.",
     "links": [
       {
-        "label": "GitHub",
-        "url": "https://github.com/yixuanhuang04/histopathology-classification"
+        "platform": "GitHub",
+        "title": "cnn-histopathology-classification",
+        "url": "https://github.com/yixuanhuang04/cnn-histopathology-classification"
       }
     ]
   },
@@ -25,7 +26,8 @@
     "description": "Designed a portable microcontroller-based frequency meter with embedded firmware, achieving ±0.1 Hz accuracy across 100+ test signals.",
     "links": [
       {
-        "label": "GitHub",
+        "platform": "GitHub",
+        "title": "pocket-frequency-meter",
         "url": "https://github.com/yixuanhuang04/pocket-frequency-meter"
       }
     ]
@@ -37,8 +39,9 @@
     "description": "Built a virtual enterprise network and completed configuration of network segments, devices, and routing.",
     "links": [
       {
-        "label": "GitHub",
-        "url": "https://github.com/yixuanhuang04/enterprise-network-sim"
+        "platform": "GitHub",
+        "title": "enterprise-network-simulation",
+        "url": "https://github.com/yixuanhuang04/enterprise-network-simulation"
       }
     ]
   },
@@ -49,7 +52,8 @@
     "description": "A self-constructed RGB-D plant 3D reconstruction dataset containing raw, masked, sparse, and dense reconstructions for multiple plant instances.",
     "links": [
       {
-        "label": "HuggingFace",
+        "platform": "HuggingFace",
+        "title": "Plant3D",
         "url": "https://huggingface.co/datasets/yixuanhuang04/Plant3D"
       }
     ]
@@ -61,7 +65,8 @@
     "description": "A multi-object RGB-D 3D reconstruction dataset for benchmarking reconstruction pipelines across object categories.",
     "links": [
       {
-        "label": "HuggingFace",
+        "platform": "HuggingFace",
+        "title": "Obj3D",
         "url": "https://huggingface.co/datasets/yixuanhuang04/Obj3D"
       }
     ]
@@ -88,14 +93,15 @@
     "links": []
   },
   {
-    "title": "Tourism Website Big Data Analysis",
+    "title": "Tourism Website Big Data Analysis and Application",
     "year": "2024",
     "image": "../assets/images/projects/tourism-analytics.jpeg",
     "description": "Web scraping with Jsoup, storage in HBase, and visualization with ECharts for hotel pricing and review analysis.",
     "links": [
       {
-        "label": "GitHub",
-        "url": "https://github.com/yixuanhuang04/tourism-analytics"
+        "platform": "GitHub",
+        "title": "ctrip-tourism-analysis",
+        "url": "https://github.com/yixuanhuang04/ctrip-tourism-analysis"
       }
     ]
   },
