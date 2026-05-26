@@ -14,7 +14,8 @@
     "links": [
       {
         "platform": "GitHub",
-        "url": "https://github.com/yixuanhuang04/histopathology-classification"
+        "title": "cnn-histopathology-classification",
+        "url": "https://github.com/yixuanhuang04/cnn-histopathology-classification"
       }
     ]
   },
