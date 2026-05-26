@@ -1,5 +1,18 @@
 [
   {
+    "title": "Awesome Chinese Thesis Template",
+    "year": "2026",
+    "image": "../assets/images/projects/no-image.jpeg",
+    "description": "A modern and customizable LaTeX thesis template designed for Chinese universities. Supports Overleaf and local compilation, with a clean and modular structure for academic writing. Includes strict licensing terms for attribution and non-commercial use, and is intended for reusable thesis workflows.",
+    "links": [
+      {
+        "platform": "GitHub",
+        "title": "awesome-chinese-thesis",
+        "url": "https://github.com/yixuanhuang04/awesome-chinese-thesis"
+      }
+    ]
+  },
+  {
     "title": "Agricultural Intelligent Robot",
     "year": "2025",
     "image": "../assets/images/projects/no-image.jpeg",
