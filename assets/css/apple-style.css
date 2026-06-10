@@ -640,11 +640,10 @@ span.string > * {
 /* Footer */
 
 .site-footer {
-  margin-top: 32px;
+  margin-top: 64px;
 }
 
 .footer-back {
-  padding-top: 32px;
   margin-bottom: 12px;
 }
 
