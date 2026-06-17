@@ -48,8 +48,7 @@ a:hover {
   border-bottom: none;
 }
 
-strong,
-.highlight {
+strong {
   font-weight: 600;
 }
 
@@ -546,7 +545,7 @@ span.string > * {
   font-weight: 600;
 }
 
-.highlight-red {
+.highlight {
   color: #ff0000;
   font-weight: 600;
   font-style: italic;
