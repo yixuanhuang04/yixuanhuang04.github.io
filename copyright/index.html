@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Copyright and Usage Notice | Yixuan Huang</title>
+
+	<!-- SEO -->
+	<meta name="title" content="Copyright and Usage Notice | Yixuan Huang">
+	<meta name="author" content="Yixuan Huang">
+	<meta name="description" content="Copyright and usage notice for the personal academic website of Yixuan Huang.">
+	<meta name="keywords" content="Yixuan Huang, Copyright, Usage Notice, Personal Website, Academic Homepage">
+	<meta name="robots" content="index, follow">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="https://yixuanhuang04.github.io/copyright/">
+
+	<!-- Open Graph / Social Preview -->
+	<meta property="og:site_name" content="Yixuan Huang">
+	<meta property="og:title" content="Copyright and Usage Notice | Yixuan Huang">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://yixuanhuang04.github.io/copyright/">
+	<meta property="og:description" content="Copyright and usage notice for the personal academic website of Yixuan Huang.">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Copyright and Usage Notice | Yixuan Huang">
+	<meta name="twitter:description" content="Copyright and usage notice for the personal academic website of Yixuan Huang.">
+
+	<!-- Favicon -->
+	<link rel="icon" href="../assets/images/icons/yh-logo.png">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+	<main class="page-content">
+		<article class="text">
+			<h1 class="title">Copyright & Usage Notice</h1>
+
+			<div class="text-content">
+				<p>
+					Copyright © 2024–2026 Yixuan Huang. All rights reserved.
+				</p>
+
+				<p>
+					This website and its associated repository are provided for viewing and reading purposes only.
+					They are not open source and are not provided as a template.
+				</p>
+
+				<p>
+					Unless I give prior written permission, you may not copy, modify, distribute, mirror,
+					republish, sublicense, commercially use, or create derivative works from this website,
+					its source code, design, content, or any substantial portion of them.
+				</p>
+
+				<p>
+					Personal content and materials, including but not limited to text, photographs, images,
+					videos, documents, resume/CV information, academic history, project descriptions,
+					honors, experiences, reflections, contact information, visual design, branding elements,
+					and other personal or identifying information, may not be copied, reused, scraped,
+					redistributed, or used for commercial, promotional, profiling, impersonation, dataset
+					creation, machine learning, or AI training purposes.
+				</p>
+
+				<p>
+					If I release a reusable homepage, portfolio, or CV template in the future, it will be
+					published in a separate repository under its own license. No permission is granted to use
+					this personal homepage repository as a template.
+				</p>
+
+				<p>
+					Unless otherwise stated, all personal content on this website, including text, photographs,
+					images, resume content, portfolio descriptions, and personal branding assets, may not be
+					copied, modified, distributed, or used commercially without prior written permission.
+				</p>
+
+				<p>
+					Third-party trademarks, logos, publications, datasets, or other materials referenced on
+					this website remain the property of their respective owners.
+				</p>
+
+				<p>
+					If you would like to request permission to use any material from this website, please contact
+					me directly at
+					<a href="mailto:yixhuang@umich.edu">yixhuang@umich.edu</a>.
+				</p>
+			</div>
+		</article>
+
+		<footer class="site-footer">
+			<p class="footer-back">
+				<a href="../">← Back to Home</a>
+			</p>
+
+			<div id="footer-content"></div>
+		</footer>
+	</main>
+
+	<script>
+		fetch("../footer/index.html")
+			.then(res => res.text())
+			.then(html => {
+				document.getElementById("footer-content").innerHTML = html;
+			});
+	</script>
+</body>
+
+</html>

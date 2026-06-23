@@ -42,7 +42,8 @@ a {
   transition: color 0.2s;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: #ffcb05;
   text-decoration: none;
   border-bottom: none;
@@ -57,7 +58,7 @@ h2,
 h3 {
   color: #1d1d1f;
   margin-top: 11px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   padding-top: 8px;
   padding-bottom: 3px;
   line-height: 1;
@@ -643,21 +644,34 @@ span.string > * {
 }
 
 .footer-back {
+  margin-top: 64px;
   margin-bottom: 12px;
 }
 
 .footer-meta {
   text-align: center;
   border-top: 1px solid #c0c0c0;
+  padding: 32px 0;
 }
 
 .footer-updated {
-  margin-top: 24px;
   margin-bottom: 8px;
 }
 
-.footer-copyright {
-  font-size: 16px;
+.footer-notice,
+.footer-links {
+  margin-top: 8px;
+}
+
+.footer-links span {
+  margin: 0 6px;
+}
+
+@media (max-width: 600px) {
+  .footer-meta {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 /* Visitor Map */

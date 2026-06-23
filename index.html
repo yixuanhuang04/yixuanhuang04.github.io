@@ -89,7 +89,7 @@
 				<a href="https://scholar.google.com/citations?user=MSYQrK4AAAAJ&hl=en">Google Scholar</a> /
 				<a href="https://github.com/yixuanhuang04">GitHub</a> /
 				<a href="https://twitter.com/yixuanhuang04">Twitter</a> /
-				<a href="./contact/">Full Contact</a>
+				<a href="./contact/">Contact</a>
 			</div>
 		</section>
 
@@ -194,8 +194,8 @@
 
 						<p class="honor-meta">
 							<strong>Yixuan Huang</strong>, Zheng Zhang, Wentao Huang, Zeqi Yao. Supervised by Prof.
-							<a href="https://www.researchgate.net/lab/Yi-Zhong-Lab">Yi Zhong</a>.<br>
-							GitHub: <a href="https://github.com/yixuanhuang04/cuepiac2023-avsim">cuepiac2023-avsim</a>
+							<a href="https://www.researchgate.net/lab/Yi-Zhong-Lab" target="_blank">Yi Zhong</a>.<br>
+							GitHub: <a href="https://github.com/yixuanhuang04/cuepiac2023-avsim" target="_blank">cuepiac2023-avsim</a>
 						</p>
 					</div>
 				</div>
@@ -319,7 +319,7 @@
 		</section>
 
 		<!-- Footer -->
-		<footer class="site-footer">
+		<footer class="site-footer" data-show-updated="true">
 			<div id="footer-content"></div>
 		</footer>
 	</main>
@@ -335,7 +335,15 @@
 		fetch("./footer/index.html")
 			.then(res => res.text())
 			.then(html => {
-				document.getElementById("footer-content").innerHTML = html;
+				const footerContent = document.getElementById("footer-content");
+				footerContent.innerHTML = html;
+
+				const footer = document.querySelector(".site-footer");
+				const updated = footerContent.querySelector("[data-footer-updated]");
+
+				if (footer.dataset.showUpdated === "true" && updated) {
+					updated.hidden = false;
+				}
 			});
 	</script>
 </body>
