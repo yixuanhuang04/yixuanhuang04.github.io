@@ -1,0 +1,413 @@
+/* Responsive Layout */
+
+/* Tablet and small desktop */
+@media (max-width: 900px) {
+  html {
+    scroll-padding-top: 64px;
+  }
+
+  body {
+    max-width: none;
+    margin: 64px auto 28px;
+    padding: 10px 32px 28px;
+  }
+
+  .navbar {
+    width: calc(100% - 24px);
+    max-width: none;
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 78px;
+  }
+
+  body {
+    margin: 64px auto 24px;
+    padding: 10px 22px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    line-height: 1.15;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    margin-bottom: 12px;
+  }
+
+  ul,
+  ol,
+  dl {
+    padding-left: 21px;
+  }
+
+  .navbar {
+    width: calc(100% - 20px);
+    padding: 10px 12px;
+    gap: 14px;
+    flex-wrap: wrap;
+    border-radius: 0 0 12px 12px;
+  }
+
+  .navbar a {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .bio-header {
+    margin-top: 6px;
+    margin-bottom: 28px;
+  }
+
+  .bio-name {
+    font-size: 34px;
+    line-height: 1.1;
+  }
+
+  .bio-links {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
+  .bio-content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .bio-text,
+  .bio-photo {
+    flex: none;
+    width: 100%;
+  }
+
+  .bio-photo {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    order: -1;
+  }
+
+  .bio-photo img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+  }
+
+  .bio-text p,
+  .project-desc,
+  .project-desc p,
+  .text-content p {
+    text-align: left;
+  }
+
+  .subtitle-with-link {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .subtitle-link {
+    font-size: 16px;
+  }
+
+  .beyond .subtitle-with-link {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .beyond .subtitle-link {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .education-list,
+  .experience-list,
+  .project-list,
+  .honor-selected-list {
+    gap: 22px;
+  }
+
+  /*
+    For larger mobile devices, keep Education and Selected items
+    in a left-right layout.
+  */
+
+  .education-item,
+  .project-item,
+  .honor-selected {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .education-media {
+    flex: 0 0 40%;
+    width: auto;
+    justify-content: center;
+  }
+
+  .education-content {
+    flex: 1 1 60%;
+    width: auto;
+  }
+
+  .project-media,
+  .honor-media {
+    flex: 0 0 40%;
+    width: auto;
+    justify-content: center;
+  }
+
+  .project-content,
+  .honor-content {
+    flex: 1 1 60%;
+    width: auto;
+  }
+
+  /*
+    Experience can still stack on mobile because experience entries
+    are usually text-heavy and less dependent on image/text balance.
+  */
+
+  .experience-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .experience-media,
+  .experience-content {
+    flex: none;
+    width: 100%;
+  }
+
+  .experience-media {
+    justify-content: center;
+  }
+
+  .education-media img,
+  .experience-media img {
+    max-width: 100px;
+  }
+
+  .project-media img,
+  .honor-media img {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  .project-desc {
+    margin-top: 6px;
+  }
+
+  .research-highlight {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .poem-block {
+    align-items: center;
+    width: 100%;
+  }
+
+  .poem-line {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    column-gap: 18px;
+    width: min(100%, 520px);
+  }
+
+  .poem-line span {
+    text-align: left;
+  }
+
+  .poem-line span:first-child,
+  .poem-line span:last-child {
+    min-width: 0;
+    width: auto;
+  }
+
+  .poem-line span:last-child {
+    font-style: italic;
+  }
+
+  .quote {
+    padding-left: 14px;
+  }
+
+  .footer-back {
+    margin-top: 48px;
+  }
+
+  .footer-meta {
+    padding: 28px 16px;
+  }
+
+  .footer-notice,
+  .footer-links {
+    line-height: 1.5;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  html {
+    scroll-padding-top: 88px;
+  }
+
+  body {
+    margin-top: 58px;
+    padding: 8px 16px 24px;
+    font-size: 15.5px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  .navbar {
+    width: calc(100% - 16px);
+    padding: 9px 10px;
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  .bio-header {
+    margin-bottom: 24px;
+  }
+
+  .bio-name {
+    font-size: 30px;
+  }
+
+  .bio-photo img {
+    max-width: 145px;
+  }
+
+  ul,
+  ol,
+  dl {
+    padding-left: 20px;
+  }
+
+  .beyond .subtitle-with-link {
+    gap: 8px;
+  }
+
+  .beyond .subtitle-link {
+    font-size: 14px;
+  }
+
+  .education-list,
+  .experience-list,
+  .project-list,
+  .honor-selected-list {
+    gap: 20px;
+  }
+
+  /*
+    On small phones, stack Education and Selected items vertically.
+  */
+
+  .education-item,
+  .project-item,
+  .honor-selected {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .education-media,
+  .project-media,
+  .honor-media,
+  .education-content,
+  .project-content,
+  .honor-content {
+    flex: none;
+    width: 100%;
+  }
+
+  .education-media,
+  .project-media,
+  .honor-media {
+    justify-content: center;
+  }
+
+  /*
+    Add inner horizontal padding to the education text block
+    so the text visually moves toward the center without centering each line.
+  */
+
+  .education-content {
+    padding: 0 44px
+  }
+
+  .education-media img,
+  .experience-media img {
+    max-width: 95px;
+  }
+
+  .project-media img,
+  .honor-media img {
+    max-width: 240px;
+    border-radius: 10px;
+  }
+
+  .poem-line {
+    grid-template-columns: 104px minmax(0, 1fr);
+    column-gap: 12px;
+    width: 100%;
+  }
+
+  .poem-line span:first-child {
+    font-size: 15px;
+  }
+
+  .poem-line span:last-child {
+    font-size: 14px;
+  }
+
+  .footer-meta {
+    padding: 24px 12px;
+  }
+
+  .footer-notice,
+  .footer-links {
+    font-size: 14px;
+  }
+
+  .footer-links span {
+    margin: 0 4px;
+  }
+}

@@ -1,13 +1,32 @@
 (function () {
   const MAP_CONTAINER_ID = "mapmyvisitors-container";
 
-  const MAP_URLS = {
-    light: "https://mapmyvisitors.com/map.js?cl=000000&w=480&t=tt&d=BCxcZyc2gIdIT2h-kBeW4cYemyIr_LC9eH-inbjv1O4&co=ffffff&ct=000000&cmo=2f65a7&cmn=ffcb05",
+  const MAP_BASE_URL = "https://mapmyvisitors.com/map.js";
 
-    dark: "https://mapmyvisitors.com/map.js?cl=ffffff&w=480&t=tt&d=BCxcZyc2gIdIT2h-kBeW4cYemyIr_LC9eH-inbjv1O4&co=1d1d1f&ct=ffffff&cmo=2f65a7&cmn=ffcb05",
+  const MAP_COMMON_PARAMS = {
+    t: "tt",
+    d: "BCxcZyc2gIdIT2h-kBeW4cYemyIr_LC9eH-inbjv1O4",
+    cmo: "2f65a7",
+    cmn: "ffcb05",
+  };
+
+  const MAP_THEME_PARAMS = {
+    light: {
+      cl: "000000",
+      co: "ffffff",
+      ct: "000000",
+    },
+
+    dark: {
+      cl: "ffffff",
+      co: "1d1d1f",
+      ct: "ffffff",
+    },
   };
 
   let currentTheme = null;
+  let currentMapWidth = null;
+  let resizeTimer = null;
 
   function getCurrentTheme() {
     const html = document.documentElement;
@@ -31,10 +50,46 @@
     return "light";
   }
 
-  function loadMapMyVisitors(theme) {
+  function getMapWidth() {
+    const viewportWidth = window.innerWidth;
+
+    if (viewportWidth <= 400) {
+      return 320;
+    }
+
+    if (viewportWidth <= 600) {
+      return 360;
+    }
+
+    if (viewportWidth <= 900) {
+      return 420;
+    }
+
+    return 480;
+  }
+
+  function buildMapUrl(theme, width) {
     const normalizedTheme = theme === "dark" ? "dark" : "light";
 
-    if (normalizedTheme === currentTheme) {
+    const params = new URLSearchParams({
+      cl: MAP_THEME_PARAMS[normalizedTheme].cl,
+      w: String(width),
+      t: MAP_COMMON_PARAMS.t,
+      d: MAP_COMMON_PARAMS.d,
+      co: MAP_THEME_PARAMS[normalizedTheme].co,
+      ct: MAP_THEME_PARAMS[normalizedTheme].ct,
+      cmo: MAP_COMMON_PARAMS.cmo,
+      cmn: MAP_COMMON_PARAMS.cmn,
+    });
+
+    return `${MAP_BASE_URL}?${params.toString()}`;
+  }
+
+  function loadMapMyVisitors(theme) {
+    const normalizedTheme = theme === "dark" ? "dark" : "light";
+    const mapWidth = getMapWidth();
+
+    if (normalizedTheme === currentTheme && mapWidth === currentMapWidth) {
       return;
     }
 
@@ -48,13 +103,14 @@
     }
 
     currentTheme = normalizedTheme;
+    currentMapWidth = mapWidth;
 
     container.innerHTML = "";
 
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.id = "mapmyvisitors";
-    script.src = MAP_URLS[normalizedTheme];
+    script.src = buildMapUrl(normalizedTheme, mapWidth);
 
     container.appendChild(script);
   }
@@ -64,19 +120,43 @@
     loadMapMyVisitors(theme);
   }
 
+  function refreshMapMyVisitorsOnResize() {
+    clearTimeout(resizeTimer);
+
+    resizeTimer = setTimeout(function () {
+      const nextMapWidth = getMapWidth();
+
+      if (nextMapWidth !== currentMapWidth) {
+        refreshMapMyVisitors();
+      }
+    }, 200);
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     refreshMapMyVisitors();
   });
 
-  window
-    .matchMedia("(prefers-color-scheme: dark)")
-    .addEventListener("change", function () {
+  const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+  if (typeof darkModeMediaQuery.addEventListener === "function") {
+    darkModeMediaQuery.addEventListener("change", function () {
       const savedTheme = localStorage.getItem("theme");
 
       if (savedTheme !== "dark" && savedTheme !== "light") {
         refreshMapMyVisitors();
       }
     });
+  } else if (typeof darkModeMediaQuery.addListener === "function") {
+    darkModeMediaQuery.addListener(function () {
+      const savedTheme = localStorage.getItem("theme");
+
+      if (savedTheme !== "dark" && savedTheme !== "light") {
+        refreshMapMyVisitors();
+      }
+    });
+  }
+
+  window.addEventListener("resize", refreshMapMyVisitorsOnResize);
 
   const observer = new MutationObserver(function () {
     refreshMapMyVisitors();

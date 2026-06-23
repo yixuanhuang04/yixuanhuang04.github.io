@@ -8,6 +8,12 @@ html {
   scroll-padding-top: 54px;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family:
     -apple-system, "SF Pro Text", "SF Pro Display", "SF Pro Icons",
@@ -19,8 +25,7 @@ body {
   line-height: 20px;
   margin: 70px auto 30px;
   padding: 10px 50px 30px;
-  max-width: 880px;
-  min-width: 720px;
+  max-width: 980px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -152,6 +157,12 @@ dd p {
   margin-bottom: 5px;
 }
 
+@media (prefers-color-scheme: dark) {
+  dd {
+    color: #dddddd;
+  }
+}
+
 /* Code & Info Blocks */
 
 p + div.codeblock {
@@ -203,6 +214,20 @@ div.infoblock dd p {
   margin-bottom: 8px;
 }
 
+@media (prefers-color-scheme: dark) {
+  div.blockcontent {
+    border-color: #555555;
+  }
+
+  div.infoblock > div.blockcontent {
+    background: #2a2a20;
+  }
+
+  div.codeblock > div.blockcontent {
+    background: #2a2a2a;
+  }
+}
+
 /* Code Highlight */
 
 span.pycommand {
@@ -236,6 +261,39 @@ span.string > * {
   color: #606060;
 }
 
+@media (prefers-color-scheme: dark) {
+  span.pycommand {
+    color: #9bbcff;
+  }
+
+  span.statement {
+    color: #72d672;
+  }
+
+  span.builtin {
+    color: #9bbcff;
+  }
+
+  span.special {
+    color: #ff9b9b;
+  }
+
+  span.operator {
+    color: #ffb0b0;
+  }
+
+  span.error {
+    color: #ff7070;
+  }
+
+  span.comment,
+  span.comment > *,
+  span.string,
+  span.string > * {
+    color: #b0b0b0;
+  }
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -245,7 +303,7 @@ span.string > * {
   transform: translateX(-50%);
 
   width: calc(100% - 32px);
-  max-width: 880px;
+  max-width: 980px;
   padding: 12px 0;
 
   display: flex;
@@ -346,7 +404,7 @@ span.string > * {
 }
 
 .subtitle-link {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -531,6 +589,12 @@ span.string > * {
   text-align: justify;
 }
 
+@media (prefers-color-scheme: dark) {
+  .project-year {
+    color: #cccccc;
+  }
+}
+
 /* Honors */
 
 .bar {
@@ -550,6 +614,16 @@ span.string > * {
   color: #ff0000;
   font-weight: 600;
   font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bar span {
+    background: rgba(255, 255, 255, 0.16);
+  }
+
+  .highlight {
+    color: #ff7070;
+  }
 }
 
 /* Contact */
@@ -631,6 +705,12 @@ span.string > * {
   font-style: italic;
 }
 
+@media (prefers-color-scheme: dark) {
+  .reflection {
+    color: #cccccc;
+  }
+}
+
 /* Experience */
 
 .experience {
@@ -667,10 +747,9 @@ span.string > * {
   margin: 0 6px;
 }
 
-@media (max-width: 600px) {
+@media (prefers-color-scheme: dark) {
   .footer-meta {
-    padding-left: 16px;
-    padding-right: 16px;
+    border-top-color: #555555;
   }
 }
 
@@ -679,40 +758,4 @@ span.string > * {
 .visitor-map {
   margin-top: 32px;
   text-align: center;
-}
-
-/* Responsive */
-
-@media (max-width: 768px) {
-  .bio-content,
-  .project-item,
-  .honor-selected {
-    flex-direction: row;
-  }
-
-  .project-media,
-  .project-content,
-  .honor-media,
-  .honor-content {
-    width: 100%;
-  }
-
-  .project-media,
-  .honor-media,
-  .bio-photo {
-    justify-content: center;
-  }
-
-  .bio-photo {
-    flex: 3;
-    display: flex;
-  }
-
-  .bio-photo img {
-    width: 100%;
-    max-width: 220px;
-    height: auto;
-    display: block;
-    border-radius: 12px;
-  }
 }
