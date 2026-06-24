@@ -2,7 +2,7 @@
 
 I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank">Robotics</a>** for Fall 2026 at **<a href="https://umich.edu/" target="_blank">University of Michigan</a>**.
 
-This repository hosts the source code and content for my personal homepage: [yixuanhuang04.github.io](https://yixuanhuang04.github.io/). The website presents my academic journey, research interests, projects, honors, experiences, and reflections beyond academia.
+This repository hosts the source code and content for my personal homepage: [yixnhuang.github.io](https://yixnhuang.github.io/). The website presents my academic journey, research interests, projects, honors, experiences, and reflections beyond academia.
 
 ## Important Notice
 
@@ -31,5 +31,5 @@ Third-party trademarks, logos, links, platforms, libraries, fonts, tools, and ex
 ## Contact
 
 - Email: [yixhuang@umich.edu](mailto:yixhuang@umich.edu)
-- [Google Scholar](https://scholar.google.com/citations?user=MSYQrK4AAAAJ&hl=en) | [GitHub](https://github.com/yixuanhuang04) | [Twitter](https://twitter.com/yixuanhuang04)
-- More ways to reach me are available on my [contact page](https://yixuanhuang04.github.io/contact).
+- [Google Scholar](https://scholar.google.com/citations?user=MSYQrK4AAAAJ&hl=en) | [GitHub](https://github.com/yixnhuang) | [Twitter](https://twitter.com/yixuanhuang04)
+- More ways to reach me are available on my [contact page](https://yixnhuang.github.io/contact).
