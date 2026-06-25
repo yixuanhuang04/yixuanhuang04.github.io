@@ -1,6 +1,6 @@
 # Personal Homepage
 
-I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank">Robotics</a>** for Fall 2026 at **<a href="https://umich.edu/" target="_blank">University of Michigan</a>**.
+I am an incoming M.S. student in **<a href="https://robotics.umich.edu/" target="_blank" rel="noopener noreferrer">Robotics</a>** for Fall 2026 at **<a href="https://umich.edu/" target="_blank" rel="noopener noreferrer">University of Michigan</a>**.
 
 This repository hosts the source code and content for my personal homepage: [yixnhuang.github.io](https://yixnhuang.github.io/). The website presents my academic journey, research interests, projects, honors, experiences, and reflections beyond academia.
 
