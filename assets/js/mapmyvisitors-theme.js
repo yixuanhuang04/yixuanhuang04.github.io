@@ -4,7 +4,7 @@
   const MAP_BASE_URL = "https://mapmyvisitors.com/map.js";
 
   const MAP_COMMON_PARAMS = {
-    t: "n",
+    t: "tt",
     d: "H9R_6PTXQeo1FcQAZCn20MT8cfzFCTSOm7Y_0bze6eg",
 
     // Marker colors
@@ -31,7 +31,6 @@
   let currentTheme = null;
   let currentMapWidth = null;
   let resizeTimer = null;
-  let linkObserver = null;
 
   function getCurrentTheme() {
     const html = document.documentElement;
@@ -90,54 +89,6 @@
     return `${MAP_BASE_URL}?${params.toString()}`;
   }
 
-  function hardenExternalLinks(container) {
-    if (!container) return;
-
-    const links = container.querySelectorAll("a[href]");
-
-    links.forEach(function (link) {
-      const href = link.getAttribute("href");
-
-      if (!href) return;
-
-      let url;
-
-      try {
-        url = new URL(href, window.location.href);
-      } catch (error) {
-        return;
-      }
-
-      const isExternal = url.origin !== window.location.origin;
-
-      if (!isExternal) return;
-
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-      link.setAttribute("referrerpolicy", "no-referrer");
-    });
-  }
-
-  function observeMapLinks(container) {
-    if (!container) return;
-
-    if (linkObserver) {
-      linkObserver.disconnect();
-      linkObserver = null;
-    }
-
-    hardenExternalLinks(container);
-
-    linkObserver = new MutationObserver(function () {
-      hardenExternalLinks(container);
-    });
-
-    linkObserver.observe(container, {
-      childList: true,
-      subtree: true,
-    });
-  }
-
   function loadMapMyVisitors(theme) {
     const normalizedTheme = theme === "dark" ? "dark" : "light";
     const mapWidth = getMapWidth();
@@ -165,16 +116,7 @@
     script.id = "mapmyvisitors";
     script.src = buildMapUrl(normalizedTheme, mapWidth);
 
-    // Prevent sending this page as the referrer when loading the third-party script.
-    script.referrerPolicy = "no-referrer";
-
-    script.onload = function () {
-      hardenExternalLinks(container);
-    };
-
     container.appendChild(script);
-
-    observeMapLinks(container);
   }
 
   function refreshMapMyVisitors() {
