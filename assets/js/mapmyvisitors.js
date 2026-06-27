@@ -6,10 +6,6 @@
   const MAP_COMMON_PARAMS = {
     t: "tt",
     d: "H9R_6PTXQeo1FcQAZCn20MT8cfzFCTSOm7Y_0bze6eg",
-
-    // Marker colors
-    // cmo: main marker color, #0066cc or #e01f7c
-    // cmn: secondary/new marker color, #ffcb05
     cmo: "e01f7c",
     cmn: "ffcb05",
   };
@@ -31,6 +27,15 @@
   let currentTheme = null;
   let currentMapWidth = null;
   let resizeTimer = null;
+  let initialized = false;
+
+  function ready(callback) {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", callback, { once: true });
+    } else {
+      callback();
+    }
+  }
 
   function getCurrentTheme() {
     const html = document.documentElement;
@@ -90,19 +95,16 @@
   }
 
   function loadMapMyVisitors(theme) {
+    const container = document.getElementById(MAP_CONTAINER_ID);
+
+    if (!container) {
+      return;
+    }
+
     const normalizedTheme = theme === "dark" ? "dark" : "light";
     const mapWidth = getMapWidth();
 
     if (normalizedTheme === currentTheme && mapWidth === currentMapWidth) {
-      return;
-    }
-
-    const container = document.getElementById(MAP_CONTAINER_ID);
-
-    if (!container) {
-      console.warn(
-        `[MapMyVisitors] Cannot find #${MAP_CONTAINER_ID}. Please add <div id="${MAP_CONTAINER_ID}"></div> to your HTML.`,
-      );
       return;
     }
 
@@ -136,44 +138,56 @@
     }, 200);
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function initMapMyVisitors() {
+    const container = document.getElementById(MAP_CONTAINER_ID);
+
+    if (!container || initialized) {
+      return;
+    }
+
+    initialized = true;
+
     refreshMapMyVisitors();
-  });
 
-  const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const darkModeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    );
 
-  if (typeof darkModeMediaQuery.addEventListener === "function") {
-    darkModeMediaQuery.addEventListener("change", function () {
-      const savedTheme = localStorage.getItem("theme");
+    if (typeof darkModeMediaQuery.addEventListener === "function") {
+      darkModeMediaQuery.addEventListener("change", function () {
+        const savedTheme = localStorage.getItem("theme");
 
-      if (savedTheme !== "dark" && savedTheme !== "light") {
-        refreshMapMyVisitors();
-      }
+        if (savedTheme !== "dark" && savedTheme !== "light") {
+          refreshMapMyVisitors();
+        }
+      });
+    } else if (typeof darkModeMediaQuery.addListener === "function") {
+      darkModeMediaQuery.addListener(function () {
+        const savedTheme = localStorage.getItem("theme");
+
+        if (savedTheme !== "dark" && savedTheme !== "light") {
+          refreshMapMyVisitors();
+        }
+      });
+    }
+
+    window.addEventListener("resize", refreshMapMyVisitorsOnResize);
+
+    const themeObserver = new MutationObserver(function () {
+      refreshMapMyVisitors();
     });
-  } else if (typeof darkModeMediaQuery.addListener === "function") {
-    darkModeMediaQuery.addListener(function () {
-      const savedTheme = localStorage.getItem("theme");
 
-      if (savedTheme !== "dark" && savedTheme !== "light") {
-        refreshMapMyVisitors();
-      }
+    themeObserver.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class", "data-theme"],
     });
+
+    window.setMapMyVisitorsTheme = function (theme) {
+      loadMapMyVisitors(theme);
+    };
+
+    window.refreshMapMyVisitors = refreshMapMyVisitors;
   }
 
-  window.addEventListener("resize", refreshMapMyVisitorsOnResize);
-
-  const themeObserver = new MutationObserver(function () {
-    refreshMapMyVisitors();
-  });
-
-  themeObserver.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["class", "data-theme"],
-  });
-
-  window.setMapMyVisitorsTheme = function (theme) {
-    loadMapMyVisitors(theme);
-  };
-
-  window.refreshMapMyVisitors = refreshMapMyVisitors;
+  ready(initMapMyVisitors);
 })();

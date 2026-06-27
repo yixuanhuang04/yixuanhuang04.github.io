@@ -1,5 +1,13 @@
 /* Global Layout & Base */
 
+:root {
+  /* Updated dynamically by /assets/js/navbar.js when a fixed navbar is present. */
+  --navbar-height: 44px;
+
+  /* Space between the navbar and the main page content. */
+  --nav-content-gap: 40px;
+}
+
 html {
   background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
@@ -22,10 +30,16 @@ body {
   background-color: #ffffff;
   text-align: left;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   margin: 70px auto 30px;
   padding: 10px 50px 30px;
   max-width: 980px;
+}
+
+body.nav-fixed,
+body.nav-static {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -173,7 +187,7 @@ div.codeblock,
 div.infoblock {
   margin-top: 19px;
   margin-bottom: 21px;
-  margin-right: 0%;
+  margin-right: 0;
 }
 
 div.blocktitle {
@@ -297,19 +311,14 @@ span.string > * {
 /* Navigation Bar */
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  width: calc(100% - 32px);
-  max-width: 900px;
-  padding: 12px 0;
+  width: 100%;
+  padding: 12px 16px;
 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 28px;
+  flex-wrap: wrap;
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -338,6 +347,38 @@ span.string > * {
 
 .navbar a:hover {
   color: #0066cc;
+}
+
+/* Fixed navbar: remains visible while scrolling. */
+body.nav-fixed .navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: calc(100% - 32px);
+  max-width: 900px;
+}
+
+/* Static navbar: stays in normal page flow. */
+body.nav-static .navbar {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+}
+
+/* Keep a consistent gap between navbar and content. */
+body.nav-fixed .page-content {
+  margin-top: calc(var(--navbar-height) + var(--nav-content-gap));
+}
+
+body.nav-static .page-content {
+  margin-top: var(--nav-content-gap);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -414,7 +455,7 @@ span.string > * {
 
 .bio-header {
   text-align: center;
-  margin-top: 8px;
+  margin-top: 0;
   margin-bottom: 36px;
 }
 
@@ -646,7 +687,7 @@ span.string > * {
 }
 
 .contact-item {
-  line-height: 24px;
+  line-height: 1.5;
   margin-bottom: 2px;
 }
 
@@ -744,7 +785,7 @@ span.string > * {
   margin-bottom: 8px;
   padding-top: 0;
   padding-bottom: 0;
-  line-height: 1.2;
+  line-height: 1.25;
 
   color: inherit;
   transition: color 0.2s ease;
@@ -758,7 +799,6 @@ span.string > * {
 .log-category-card p {
   margin-bottom: 0;
   color: inherit;
-  line-height: 1.45;
   text-align: left;
 }
 
@@ -841,28 +881,38 @@ span.string > * {
   padding: 32px 0;
 }
 
-.footer-updated {
+.footer-updated,
+.footer-copyright,
+.footer-visitor-map {
   margin-bottom: 8px;
 }
 
-.footer-notice,
-.footer-links {
-  margin-top: 8px;
+.footer-notice {
+  margin-bottom: 16px;
+}
+
+.footer-visitor-map {
+  text-align: center;
 }
 
 .footer-links span {
   margin: 0 6px;
 }
 
+#mapmyvisitors-container,
+#mapmyvisitors-container *,
+#mapmyvisitors-container a,
+#mapmyvisitors-container div,
+#mapmyvisitors-container span {
+  font-family:
+    -apple-system, "SF Pro Text", "SF Pro Display", "SF Pro Icons",
+    "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.43 !important;
+}
+
 @media (prefers-color-scheme: dark) {
   .footer-meta {
     border-top-color: #555555;
   }
-}
-
-/* Visitor Map */
-
-.visitor-map {
-  margin-top: 32px;
-  text-align: center;
 }

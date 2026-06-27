@@ -2,6 +2,10 @@
 
 /* Tablet and small desktop */
 @media (max-width: 900px) {
+  :root {
+    --nav-content-gap: 34px;
+  }
+
   html {
     scroll-padding-top: 64px;
   }
@@ -12,9 +16,23 @@
     padding: 10px 32px 28px;
   }
 
-  .navbar {
+  body.nav-fixed,
+  body.nav-static {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  body.nav-fixed .navbar {
     width: calc(100% - 24px);
     max-width: none;
+  }
+
+  body.nav-static .navbar {
+    width: 100%;
+    max-width: none;
+  }
+
+  .navbar {
     gap: 20px;
   }
 
@@ -29,10 +47,18 @@
   .log-category-card {
     padding: 15px 16px;
   }
+
+  .footer-notice {
+    margin-bottom: 14px;
+  }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
+  :root {
+    --nav-content-gap: 28px;
+  }
+
   html {
     scroll-padding-top: 78px;
   }
@@ -72,12 +98,27 @@
     padding-left: 21px;
   }
 
+  body.nav-fixed,
+  body.nav-static {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   .navbar {
-    width: calc(100% - 20px);
     padding: 10px 12px;
     gap: 14px;
     flex-wrap: wrap;
     border-radius: 0 0 12px 12px;
+  }
+
+  body.nav-fixed .navbar {
+    width: calc(100% - 20px);
+    max-width: none;
+  }
+
+  body.nav-static .navbar {
+    width: 100%;
+    max-width: none;
   }
 
   .navbar a {
@@ -86,7 +127,7 @@
   }
 
   .bio-header {
-    margin-top: 6px;
+    margin-top: 0;
     margin-bottom: 28px;
   }
 
@@ -96,7 +137,7 @@
   }
 
   .bio-links {
-    margin-top: 0px;
+    margin-top: 0;
     line-height: 1.5;
   }
 
@@ -160,11 +201,7 @@
     gap: 22px;
   }
 
-  /*
-    For larger mobile devices, keep Education and Selected items
-    in a left-right layout.
-  */
-
+  /* Keep selected media/text items side-by-side on larger phones. */
   .education-item,
   .project-item,
   .honor-selected {
@@ -197,11 +234,7 @@
     width: auto;
   }
 
-  /*
-    Experience can still stack on mobile because experience entries
-    are usually text-heavy and less dependent on image/text balance.
-  */
-
+  /* Stack text-heavy experience entries on mobile. */
   .experience-item {
     flex-direction: column;
     gap: 12px;
@@ -307,10 +340,18 @@
   .footer-links {
     line-height: 1.5;
   }
+
+  .footer-notice {
+    margin-bottom: 12px;
+  }
 }
 
 /* Small mobile */
 @media (max-width: 480px) {
+  :root {
+    --nav-content-gap: 24px;
+  }
+
   html {
     scroll-padding-top: 88px;
   }
@@ -334,10 +375,25 @@
     font-size: 17px;
   }
 
+  body.nav-fixed,
+  body.nav-static {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   .navbar {
-    width: calc(100% - 16px);
     padding: 9px 10px;
     gap: 10px;
+  }
+
+  body.nav-fixed .navbar {
+    width: calc(100% - 16px);
+    max-width: none;
+  }
+
+  body.nav-static .navbar {
+    width: 100%;
+    max-width: none;
   }
 
   .navbar a {
@@ -377,10 +433,7 @@
     gap: 20px;
   }
 
-  /*
-    On small phones, stack Education and Selected items vertically.
-  */
-
+  /* Stack media/text items on small phones. */
   .education-item,
   .project-item,
   .honor-selected {
@@ -404,11 +457,7 @@
     justify-content: center;
   }
 
-  /*
-    Add inner horizontal padding to the education text block
-    so the text visually moves toward the center without centering each line.
-  */
-
+  /* Nudge education text inward without centering each line. */
   .education-content {
     padding: 0 44px;
   }
@@ -473,6 +522,14 @@
   .footer-notice,
   .footer-links {
     font-size: 14px;
+  }
+
+  .footer-notice {
+    margin-bottom: 10px;
+  }
+
+  .footer-visitor-map {
+    margin-bottom: 8px;
   }
 
   .footer-links span {
