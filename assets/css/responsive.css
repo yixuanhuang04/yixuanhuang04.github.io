@@ -17,6 +17,18 @@
     max-width: none;
     gap: 20px;
   }
+
+  .ba-section {
+    margin-bottom: 22px;
+  }
+
+  .log-category-grid {
+    gap: 12px;
+  }
+
+  .log-category-card {
+    padding: 15px 16px;
+  }
 }
 
 /* Mobile */
@@ -84,7 +96,7 @@
   }
 
   .bio-links {
-    margin-top: 10px;
+    margin-top: 0px;
     line-height: 1.5;
   }
 
@@ -223,6 +235,34 @@
   .research-highlight {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .ba-hero {
+    margin-bottom: 18px;
+  }
+
+  .ba-section {
+    margin-bottom: 22px;
+    scroll-margin-top: 86px;
+  }
+
+  .log-category-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .log-category-card {
+    padding: 15px 16px;
+    border-radius: 12px;
+  }
+
+  .log-category-card h3 {
+    margin-bottom: 6px;
+  }
+
+  .log-category-card p {
+    line-height: 1.5;
   }
 
   .poem-block {
@@ -370,7 +410,7 @@
   */
 
   .education-content {
-    padding: 0 44px
+    padding: 0 44px;
   }
 
   .education-media img,
@@ -382,6 +422,34 @@
   .honor-media img {
     max-width: 240px;
     border-radius: 10px;
+  }
+
+  .ba-hero {
+    margin-bottom: 18px;
+  }
+
+  .ba-section {
+    margin-bottom: 20px;
+    scroll-margin-top: 96px;
+  }
+
+  .log-category-grid {
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .log-category-card {
+    padding: 14px 14px;
+    border-radius: 11px;
+  }
+
+  .log-category-card h3 {
+    font-size: 17px;
+  }
+
+  .log-category-card p {
+    font-size: 15px;
+    line-height: 1.5;
   }
 
   .poem-line {
