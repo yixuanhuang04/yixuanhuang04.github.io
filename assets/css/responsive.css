@@ -298,6 +298,38 @@
     line-height: 1.5;
   }
 
+  .post-breadcrumb {
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .post-breadcrumb::-webkit-scrollbar {
+    display: none;
+  }
+
+  .post-meta,
+  .blog-entry-meta {
+    gap: 0 12px;
+  }
+
+  .post-tags {
+    gap: 6px;
+  }
+
+  .blog-index-header {
+    margin-bottom: 18px;
+  }
+
+  .blog-list {
+    gap: 16px;
+    margin-top: 12px;
+  }
+
+  .blog-entry {
+    padding-bottom: 16px;
+  }
+
   .poem-block {
     align-items: center;
     width: 100%;
@@ -499,6 +531,36 @@
   .log-category-card p {
     font-size: 15px;
     line-height: 1.5;
+  }
+
+  .post-subtitle {
+    font-size: 16px;
+  }
+
+  .post-meta,
+  .blog-entry-meta,
+  .post-figure figcaption {
+    font-size: 14px;
+  }
+
+  .post-tags span {
+    font-size: 13px;
+  }
+
+  .blog-index-header {
+    margin-bottom: 16px;
+  }
+
+  .blog-list {
+    gap: 14px;
+  }
+
+  .blog-entry {
+    padding-bottom: 14px;
+  }
+
+  .footer-back span {
+    margin: 0 4px;
   }
 
   .poem-line {
