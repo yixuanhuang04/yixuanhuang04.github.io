@@ -35,6 +35,11 @@
     { once: true },
   );
 
+  // Pageviews
+  loadScript("/assets/js/pageviews.js").catch(function (error) {
+    console.warn(error);
+  });
+
   // Footer loader
   loadScript("/footer/footer.js").catch(function (error) {
     console.warn(error);
